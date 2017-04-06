@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491457256927">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491457692037">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -20,7 +20,7 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="cv.css" crc="3946618764" ref="cv"/>
+    <file name="cv.css" crc="4258595753" ref="cv"/>
     <file name="music.css" crc="4206279454" ref="music"/>
     <file name="index.css" crc="3964737638" ref="index"/>
     <file name="design.css" crc="34938334" ref="design"/>
@@ -36,7 +36,7 @@
     <file name="in-out_qooqee_widgets.mulib" crc="4244694768" seo="true" mt="1411263418000"/>
     <file name="jonathanvilla_resumefinal_iti.pdf" crc="141917236" seo="true" mt="1485818086000"/>
     <file name="njfuture_app.pdf" crc="186479303" seo="true" mt="1481258950000"/>
-    <file name="jv_resumefinal.pdf" crc="4064633932" seo="true" mt="1491439826000"/>
+    <file name="jv_resume_headgum.pdf" crc="415431363" seo="true" mt="1491456145000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv:aboutindex-copy"/>
@@ -396,12 +396,12 @@
       <caption webpage="photography" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="158742632" seo="true" mt="1491457180854" redirect="true"/>
+  <file name="index.html" crc="3930980879" seo="true" mt="1491457633621" redirect="true"/>
   <file name="videos.html" crc="3943540833" seo="true" mt="1491450871967" redirect="true"/>
   <file name="work.html" crc="99087502" seo="true" mt="1491457161263" redirect="true"/>
   <file name="photography.html" crc="198788035" seo="true" mt="1491451586861" redirect="true"/>
   <file name="design.html" crc="22028180" seo="true" mt="1491450962560" redirect="true"/>
   <file name="music.html" crc="116095162" seo="true" mt="1491452009233" redirect="true"/>
-  <file name="cv.html" crc="4106883491" seo="true" mt="1491450821636" redirect="true"/>
+  <file name="cv.html" crc="4110332325" seo="true" mt="1491457660834" redirect="true"/>
   <file name="aboutindex-copy.html" crc="3909708807" seo="true" mt="1491448730089" redirect="true"/>
 </manifest>
