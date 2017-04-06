@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491449210089">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491449779743">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -22,12 +22,11 @@
     <file name="site_global.css" crc="443350757"/>
     <file name="cv.css" crc="241115687" ref="cv"/>
     <file name="music.css" crc="103531082" ref="music"/>
-    <file name="index.css" crc="486013522" ref="index"/>
+    <file name="index.css" crc="3972164087" ref="index"/>
     <file name="design.css" crc="105045078" ref="design"/>
     <file name="work.css" crc="155709375" ref="work"/>
     <file name="photography.css" crc="6950151" ref="photography"/>
     <file name="videos.css" crc="505335993" ref="videos"/>
-    <file name="nomq_index.css" crc="138595722" ref="index"/>
     <file name="aboutindex-copy.css" crc="3970660849" ref="aboutindex-copy"/>
     <file name="nomq_aboutindex-copy.css" crc="4138012499" ref="aboutindex-copy"/>
   </folder>
@@ -51,7 +50,7 @@
     <file name="musewpslideshow.js" crc="4244742588" ref="videos:photography:design"/>
     <file name="jquery.museoverlay.js" crc="432750910" ref="videos:photography:design"/>
     <file name="touchswipe.js" crc="3912873526" ref="videos:photography:design"/>
-    <file name="jquery.museresponsive.js" crc="433634197" ref="index:aboutindex-copy"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="aboutindex-copy"/>
   </folder>
   <folder name="images">
     <file name="aboutindex-favicon.ico" crc="18852184" ref="phone>index:index"/>
@@ -369,7 +368,7 @@
     <file name="u15638-4_2x.png" crc="89128424" ref="design"/>
     <file name="aboutindex-copy-favicon.ico" crc="18852184" ref="aboutindex-copy"/>
   </folder>
-  <file name="index.html" crc="62389404" seo="true" mt="1491448935497" redirect="true"/>
+  <file name="index.html" crc="305736090" seo="true" mt="1491449765266" redirect="true"/>
   <file name="videos.html" crc="4266291326" seo="true" mt="1491448910421" redirect="true"/>
   <file name="work.html" crc="1442641" seo="true" mt="1491449146365" redirect="true"/>
   <file name="photography.html" crc="4115078903" seo="true" mt="1491448955842" redirect="true"/>
