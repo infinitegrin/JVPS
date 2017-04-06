@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491449779743">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491450233638">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -22,9 +22,9 @@
     <file name="site_global.css" crc="443350757"/>
     <file name="cv.css" crc="241115687" ref="cv"/>
     <file name="music.css" crc="103531082" ref="music"/>
-    <file name="index.css" crc="3972164087" ref="index"/>
+    <file name="index.css" crc="385575316" ref="index"/>
     <file name="design.css" crc="105045078" ref="design"/>
-    <file name="work.css" crc="155709375" ref="work"/>
+    <file name="work.css" crc="166387954" ref="work"/>
     <file name="photography.css" crc="6950151" ref="photography"/>
     <file name="videos.css" crc="505335993" ref="videos"/>
     <file name="aboutindex-copy.css" crc="3970660849" ref="aboutindex-copy"/>
@@ -367,10 +367,12 @@
     <file name="u15638-4.png" crc="3984147074" ref="design"/>
     <file name="u15638-4_2x.png" crc="89128424" ref="design"/>
     <file name="aboutindex-copy-favicon.ico" crc="18852184" ref="aboutindex-copy"/>
+    <file name="fts2-u16525-fr.png" crc="4140830176" ref="work"/>
+    <file name="fts2-u16525-fr_2x.png" crc="212806814" ref="work"/>
   </folder>
-  <file name="index.html" crc="305736090" seo="true" mt="1491449765266" redirect="true"/>
+  <file name="index.html" crc="4094383835" seo="true" mt="1491450159558" redirect="true"/>
   <file name="videos.html" crc="4266291326" seo="true" mt="1491448910421" redirect="true"/>
-  <file name="work.html" crc="1442641" seo="true" mt="1491449146365" redirect="true"/>
+  <file name="work.html" crc="3915827681" seo="true" mt="1491450008960" redirect="true"/>
   <file name="photography.html" crc="4115078903" seo="true" mt="1491448955842" redirect="true"/>
   <file name="design.html" crc="4075771757" seo="true" mt="1491448886835" redirect="true"/>
   <file name="music.html" crc="4140249811" seo="true" mt="1491448730091" redirect="true"/>
