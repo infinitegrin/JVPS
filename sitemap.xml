@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://johnnyvilla.com/index.html</loc>
-    <lastmod>2017-04-05</lastmod>
+    <lastmod>2017-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/index.html"/>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>http://johnnyvilla.com/work.html</loc>
-    <lastmod>2017-04-05</lastmod>
+    <lastmod>2017-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/work.html"/>
@@ -24,18 +24,6 @@
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/fts2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/fts2_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/_dsc2772-crop-u16519.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/_dsc2772-crop-u16519_2x.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521.jpg</image:loc>
@@ -64,12 +52,9 @@
   </url>
   <url>
     <loc>http://johnnyvilla.com/photography.html</loc>
-    <lastmod>2017-04-05</lastmod>
+    <lastmod>2017-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/_dsc2772.jpg</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/jv_chair.jpg</image:loc>
     </image:image>
@@ -110,16 +95,19 @@
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/_dsc277260x40.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/_dsc277260x40_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://johnnyvilla.com/images/jv_chair53x45.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/jv_chair53x45_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/londonthing.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/londonthing60x40.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/londonthing60x40_2x.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -174,12 +162,6 @@
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/guitar_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/fts2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/fts2_2x.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/ruinvited90s.jpg</image:loc>
