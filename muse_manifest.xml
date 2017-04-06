@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491452036725">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491457256927">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -22,7 +22,7 @@
     <file name="site_global.css" crc="443350757"/>
     <file name="cv.css" crc="3946618764" ref="cv"/>
     <file name="music.css" crc="4206279454" ref="music"/>
-    <file name="index.css" crc="4216964139" ref="index"/>
+    <file name="index.css" crc="3964737638" ref="index"/>
     <file name="design.css" crc="34938334" ref="design"/>
     <file name="work.css" crc="429583538" ref="work"/>
     <file name="photography.css" crc="4124197958" ref="photography"/>
@@ -396,9 +396,9 @@
       <caption webpage="photography" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="344838074" seo="true" mt="1491451719694" redirect="true"/>
+  <file name="index.html" crc="158742632" seo="true" mt="1491457180854" redirect="true"/>
   <file name="videos.html" crc="3943540833" seo="true" mt="1491450871967" redirect="true"/>
-  <file name="work.html" crc="341149300" seo="true" mt="1491451818772" redirect="true"/>
+  <file name="work.html" crc="99087502" seo="true" mt="1491457161263" redirect="true"/>
   <file name="photography.html" crc="198788035" seo="true" mt="1491451586861" redirect="true"/>
   <file name="design.html" crc="22028180" seo="true" mt="1491450962560" redirect="true"/>
   <file name="music.html" crc="116095162" seo="true" mt="1491452009233" redirect="true"/>
