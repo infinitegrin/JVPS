@@ -1,19 +1,39 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491442105052">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1491446652338">
+  <folder name="phone">
+    <folder name="css">
+      <file name="photography.css" crc="3940831363" ref="phone>photography"/>
+      <file name="design.css" crc="3940831363" ref="phone>design"/>
+      <file name="index.css" crc="4048905563" ref="phone>index"/>
+      <file name="music.css" crc="3940831363" ref="phone>music"/>
+      <file name="work.css" crc="415082352" ref="phone>work"/>
+      <file name="cv.css" crc="3940831363" ref="phone>cv"/>
+      <file name="nomq_cv.css" crc="3824530138" ref="phone>cv"/>
+      <file name="videos.css" crc="3940831363" ref="phone>videos"/>
+    </folder>
+    <file name="index.html" crc="4251684106" seo="true" mt="1491444287210" redirect="true"/>
+    <file name="work.html" crc="4050580722" seo="true" mt="1491444315021" redirect="true"/>
+    <file name="videos.html" crc="4122801672" seo="true" mt="1491443444172" redirect="false"/>
+    <file name="photography.html" crc="4006384985" seo="true" mt="1491443444181" redirect="false"/>
+    <file name="design.html" crc="313988658" seo="true" mt="1491443444190" redirect="false"/>
+    <file name="music.html" crc="300202142" seo="true" mt="1491443444200" redirect="false"/>
+    <file name="cv.html" crc="229063638" seo="true" mt="1491443444208" redirect="false"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="cv.css" crc="371753378" ref="cv"/>
-    <file name="nomq_cv.css" crc="3911826665" ref="cv"/>
-    <file name="music.css" crc="3846278045" ref="music"/>
-    <file name="nomq_music.css" crc="258657579" ref="music"/>
-    <file name="index.css" crc="4201123918" ref="index"/>
-    <file name="design.css" crc="475740420" ref="design"/>
-    <file name="nomq_design.css" crc="438374910" ref="design"/>
-    <file name="work.css" crc="147429097" ref="work"/>
-    <file name="nomq_work.css" crc="4073834016" ref="work"/>
-    <file name="photography.css" crc="316210170" ref="photography"/>
-    <file name="nomq_photography.css" crc="4159067016" ref="photography"/>
-    <file name="videos.css" crc="4066387708" ref="videos"/>
-    <file name="nomq_videos.css" crc="3825088659" ref="videos"/>
+    <file name="cv.css" crc="4058238855" ref="cv"/>
+    <file name="nomq_cv.css" crc="3887508520" ref="cv"/>
+    <file name="music.css" crc="3866900646" ref="music"/>
+    <file name="nomq_music.css" crc="430360153" ref="music"/>
+    <file name="index.css" crc="532063604" ref="index"/>
+    <file name="design.css" crc="4059169362" ref="design"/>
+    <file name="nomq_design.css" crc="356857028" ref="design"/>
+    <file name="work.css" crc="4082233201" ref="work"/>
+    <file name="nomq_work.css" crc="3849508220" ref="work"/>
+    <file name="photography.css" crc="4160128920" ref="photography"/>
+    <file name="nomq_photography.css" crc="4246413306" ref="photography"/>
+    <file name="videos.css" crc="4252218503" ref="videos"/>
+    <file name="nomq_videos.css" crc="60552057" ref="videos"/>
+    <file name="nomq_index.css" crc="165504794" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="animation-effects.mulib" crc="300459733" seo="true" mt="1436359380000"/>
@@ -24,22 +44,22 @@
     <file name="jv_resumefinal.pdf" crc="4064633932" seo="true" mt="1491439826000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:videos:work:photography:design:music:cv"/>
-    <file name="museutils.js" crc="4232573551" ref="index:videos:work:photography:design:music:cv"/>
-    <file name="whatinput.js" crc="86476730" ref="index:videos:work:photography:design:music:cv"/>
-    <file name="museconfig.js" crc="3849126041" ref="index:videos:work:photography:design:music:cv"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv"/>
+    <file name="museutils.js" crc="4232573551" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv"/>
+    <file name="whatinput.js" crc="86476730" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:videos:work:photography:design:music:cv"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index:videos:work:photography:design:music:cv"/>
-    <file name="require.js" crc="4234670167" ref="index:videos:work:photography:design:music:cv"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv"/>
+    <file name="require.js" crc="4234670167" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv"/>
     <file name="webpro.js" crc="3770351119" ref="videos:photography:design"/>
     <file name="musewpslideshow.js" crc="4244742588" ref="videos:photography:design"/>
     <file name="jquery.museoverlay.js" crc="432750910" ref="videos:photography:design"/>
     <file name="touchswipe.js" crc="3912873526" ref="videos:photography:design"/>
-    <file name="jquery.museresponsive.js" crc="433634197" ref="videos:work:photography:design:music:cv"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="videos:work:photography:design:music:cv:index"/>
   </folder>
   <folder name="images">
-    <file name="aboutindex-favicon.ico" crc="18852184" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:videos:work:photography:design:music:cv"/>
+    <file name="aboutindex-favicon.ico" crc="3954998878" ref="phone>index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:videos:work:photography:design:music:cv:phone>index"/>
     <file name="jvig2.png" crc="136875382" ref="index:videos:work:photography:design:music:cv">
       <caption webpage="index" alt=""/>
       <caption webpage="photography" alt=""/>
@@ -80,7 +100,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="videos-favicon.ico" crc="18852184" ref="videos"/>
+    <file name="videos-favicon.ico" crc="3954998878" ref="phone>videos"/>
     <file name="vid.png" crc="369463439" ref="videos">
       <caption webpage="videos" alt=""/>
     </file>
@@ -101,51 +121,51 @@
     <file name="diglead_2x.jpg" crc="486893908" ref="videos">
       <caption webpage="videos" alt=""/>
     </file>
-    <file name="u3514-42.png" crc="337351390" ref="videos"/>
-    <file name="u3514-4_2x2.png" crc="4111973612" ref="videos"/>
-    <file name="u3514-43.png" crc="386294987" ref="videos"/>
-    <file name="u3514-4_2x3.png" crc="3763632491" ref="videos"/>
-    <file name="u3514-44.png" crc="300875268" ref="videos"/>
-    <file name="u3514-4_2x4.png" crc="118488047" ref="videos"/>
-    <file name="u3514-45.png" crc="421100849" ref="videos"/>
-    <file name="u3514-4_2x5.png" crc="3874693859" ref="videos"/>
-    <file name="u3514-46.png" crc="4188072620" ref="videos"/>
-    <file name="u3514-4_2x6.png" crc="4201419509" ref="videos"/>
-    <file name="jvig2-u5743-fr.png" crc="243464482" ref="videos:design:music:cv:work"/>
-    <file name="jvig2-u5743-fr_2x.png" crc="282087651" ref="videos:design:music:cv:work"/>
-    <file name="jv_tw-u5744-fr.png" crc="207207659" ref="videos:design:music:cv:work"/>
-    <file name="jv_tw-u5744-fr_2x.png" crc="3896930966" ref="videos:design:music:cv:work"/>
-    <file name="jv_fb-u5745-fr.png" crc="187803115" ref="videos:design:music:cv:work"/>
-    <file name="jv_fb-u5745-fr_2x.png" crc="3773917232" ref="videos:design:music:cv:work"/>
-    <file name="jv_in-u5746-fr.png" crc="3919188016" ref="videos:design:music:cv:work"/>
-    <file name="jv_in-u5746-fr_2x.png" crc="137004957" ref="videos:design:music:cv:work"/>
-    <file name="jv_em-u5747-fr.png" crc="1925460" ref="videos:design:music:cv:work"/>
-    <file name="jv_em-u5747-fr_2x.png" crc="3927312012" ref="videos:design:music:cv:work"/>
-    <file name="u3514-47.png" crc="4008256544" ref="videos"/>
-    <file name="u3514-4_2x7.png" crc="3797971436" ref="videos"/>
-    <file name="jvig2-u5743-fr2.png" crc="316038117" ref="videos:design:music:cv:work"/>
-    <file name="jvig2-u5743-fr_2x2.png" crc="4075850977" ref="videos:design:music:cv:work"/>
-    <file name="jv_tw-u5744-fr2.png" crc="4157407856" ref="videos:design:music:cv:work"/>
-    <file name="jv_tw-u5744-fr_2x2.png" crc="4267120268" ref="videos:design:music:cv:work"/>
-    <file name="jv_fb-u5745-fr2.png" crc="4286653587" ref="videos:design:music:cv:work"/>
-    <file name="jv_fb-u5745-fr_2x2.png" crc="160866848" ref="videos:design:music:cv:work"/>
-    <file name="jv_in-u5746-fr2.png" crc="488580950" ref="videos:design:music:cv:work"/>
-    <file name="jv_in-u5746-fr_2x2.png" crc="4202087415" ref="videos:design:music:cv:work"/>
-    <file name="jv_em-u5747-fr2.png" crc="4053258585" ref="videos:design:music:cv:work"/>
-    <file name="jv_em-u5747-fr_2x2.png" crc="3960821396" ref="videos:design:music:cv:work"/>
-    <file name="u3514-48.png" crc="104057678" ref="videos"/>
-    <file name="u3514-4_2x8.png" crc="4136952028" ref="videos"/>
-    <file name="jvig2-u5743-fr3.png" crc="3886798570" ref="videos:design:music:cv:work"/>
-    <file name="jvig2-u5743-fr_2x3.png" crc="3938484133" ref="videos:design:music:cv:work"/>
-    <file name="jv_tw-u5744-fr3.png" crc="3985523609" ref="videos:design:music:cv:work"/>
-    <file name="jv_tw-u5744-fr_2x3.png" crc="3758496424" ref="videos:design:music:cv:work"/>
-    <file name="jv_fb-u5745-fr3.png" crc="81911619" ref="videos:design:music:cv:work"/>
-    <file name="jv_fb-u5745-fr_2x3.png" crc="3795866324" ref="videos:design:music:cv:work"/>
-    <file name="jv_in-u5746-fr3.png" crc="4015840250" ref="videos:design:music:cv:work"/>
-    <file name="jv_in-u5746-fr_2x3.png" crc="4261295732" ref="videos:design:music:cv:work"/>
-    <file name="jv_em-u5747-fr3.png" crc="4272892738" ref="videos:design:music:cv:work"/>
-    <file name="jv_em-u5747-fr_2x3.png" crc="3900287271" ref="videos:design:music:cv:work"/>
-    <file name="work-favicon.ico" crc="18852184" ref="work"/>
+    <file name="u3514-42.png" crc="373618819" ref="videos"/>
+    <file name="u3514-4_2x2.png" crc="201030047" ref="videos"/>
+    <file name="u3514-43.png" crc="4021021468" ref="videos"/>
+    <file name="u3514-4_2x3.png" crc="184643263" ref="videos"/>
+    <file name="u3514-44.png" crc="2507719" ref="videos"/>
+    <file name="u3514-4_2x4.png" crc="4139198576" ref="videos"/>
+    <file name="u3514-45.png" crc="266004961" ref="videos"/>
+    <file name="u3514-4_2x5.png" crc="3923754852" ref="videos"/>
+    <file name="u3514-46.png" crc="348534026" ref="videos"/>
+    <file name="u3514-4_2x6.png" crc="255628277" ref="videos"/>
+    <file name="jvig2-u5743-fr.png" crc="243464482" ref="videos:design:music:work:photography"/>
+    <file name="jvig2-u5743-fr_2x.png" crc="282087651" ref="videos:design:music:work:photography"/>
+    <file name="jv_tw-u5744-fr.png" crc="207207659" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_tw-u5744-fr_2x.png" crc="3896930966" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_fb-u5745-fr.png" crc="187803115" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_fb-u5745-fr_2x.png" crc="3773917232" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_in-u5746-fr.png" crc="3919188016" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_in-u5746-fr_2x.png" crc="137004957" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_em-u5747-fr.png" crc="1925460" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_em-u5747-fr_2x.png" crc="3927312012" ref="videos:design:music:cv:work:photography"/>
+    <file name="u3514-47.png" crc="4145788134" ref="videos"/>
+    <file name="u3514-4_2x7.png" crc="300022267" ref="videos"/>
+    <file name="jvig2-u5743-fr2.png" crc="316038117" ref="videos:design:music:work:photography"/>
+    <file name="jvig2-u5743-fr_2x2.png" crc="4075850977" ref="videos:design:music:work:photography"/>
+    <file name="jv_tw-u5744-fr2.png" crc="4157407856" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_tw-u5744-fr_2x2.png" crc="4267120268" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_fb-u5745-fr2.png" crc="4286653587" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_fb-u5745-fr_2x2.png" crc="160866848" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_in-u5746-fr2.png" crc="488580950" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_in-u5746-fr_2x2.png" crc="4202087415" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_em-u5747-fr2.png" crc="4053258585" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_em-u5747-fr_2x2.png" crc="3960821396" ref="videos:design:music:cv:work:photography"/>
+    <file name="u3514-48.png" crc="3890517450" ref="videos"/>
+    <file name="u3514-4_2x8.png" crc="353083561" ref="videos"/>
+    <file name="jvig2-u5743-fr3.png" crc="3886798570" ref="videos:design:music:work:photography"/>
+    <file name="jvig2-u5743-fr_2x3.png" crc="3938484133" ref="videos:design:music:work:photography"/>
+    <file name="jv_tw-u5744-fr3.png" crc="3985523609" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_tw-u5744-fr_2x3.png" crc="3758496424" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_fb-u5745-fr3.png" crc="81911619" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_fb-u5745-fr_2x3.png" crc="3795866324" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_in-u5746-fr3.png" crc="4015840250" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_in-u5746-fr_2x3.png" crc="4261295732" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_em-u5747-fr3.png" crc="4272892738" ref="videos:design:music:cv:work:photography"/>
+    <file name="jv_em-u5747-fr_2x3.png" crc="3900287271" ref="videos:design:music:cv:work:photography"/>
+    <file name="work-favicon.ico" crc="3954998878" ref="phone>work"/>
     <file name="_dsc2772-crop-u3675.jpg" crc="17978230" seo="true" ref="work">
       <caption webpage="work" alt=""/>
     </file>
@@ -154,12 +174,6 @@
     </file>
     <file name="fts2-u3666-fr.png" crc="4140830176" ref="work"/>
     <file name="fts2-u3666-fr_2x.png" crc="212806814" ref="work"/>
-    <file name="fts2.png" crc="3758741372" ref="work">
-      <caption webpage="work" alt=""/>
-    </file>
-    <file name="fts2_2x.png" crc="108211206" ref="work">
-      <caption webpage="work" alt=""/>
-    </file>
     <file name="pasted image 1251x635.jpg" crc="7444621" seo="true" ref="work">
       <caption webpage="work" alt=""/>
       <caption webpage="work" alt=""/>
@@ -242,8 +256,6 @@
     </file>
     <file name="fts2-u3666-fr2.png" crc="49145557" ref="work"/>
     <file name="fts2-u3666-fr_2x2.png" crc="353799841" ref="work"/>
-    <file name="fts2-u3666-r-fr.png" crc="3882594681" ref="work"/>
-    <file name="fts2-u3666-r-fr_2x.png" crc="4100476443" ref="work"/>
     <file name="phone2-crop-u36626.jpg" crc="4110369938" seo="true" ref="work">
       <caption webpage="work" alt=""/>
     </file>
@@ -258,8 +270,6 @@
     </file>
     <file name="fts2-u3666-fr3.png" crc="3925998613" ref="work"/>
     <file name="fts2-u3666-fr_2x3.png" crc="4102546541" ref="work"/>
-    <file name="fts2-u3666-r-fr2.png" crc="53279573" ref="work"/>
-    <file name="fts2-u3666-r-fr_2x2.png" crc="4212124870" ref="work"/>
     <file name="phone2-crop-u36627.jpg" crc="3947626857" seo="true" ref="work">
       <caption webpage="work" alt=""/>
     </file>
@@ -274,15 +284,13 @@
     </file>
     <file name="fts2-u3666-fr4.png" crc="177344285" ref="work"/>
     <file name="fts2-u3666-fr_2x4.png" crc="205743726" ref="work"/>
-    <file name="fts2-u3666-r-fr3.png" crc="484813768" ref="work"/>
-    <file name="fts2-u3666-r-fr_2x3.png" crc="3990536725" ref="work"/>
     <file name="phone2-crop-u36628.jpg" crc="4121575903" seo="true" ref="work">
       <caption webpage="work" alt=""/>
     </file>
     <file name="phone2-crop-u3662_2x8.jpg" crc="358182524" seo="true" ref="work">
       <caption webpage="work" alt=""/>
     </file>
-    <file name="photography-favicon.ico" crc="18852184" ref="photography"/>
+    <file name="photography-favicon.ico" crc="3954998878" ref="phone>photography"/>
     <file name="_dsc2772.jpg" crc="3789773556" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
       <caption webpage="photography" alt=""/>
@@ -410,19 +418,24 @@
     <file name="loading.gif" crc="3815509949" ref="photography:design"/>
     <file name="jv_chair713x607.jpg" crc="4232986377" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="u4642-4.png" crc="329945619" ref="photography"/>
     <file name="u4642-4_2x.png" crc="4291646329" ref="photography"/>
     <file name="valentinesday755x603.jpg" crc="136082271" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="valentinesday755x603_2x.jpg" crc="82419169" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
       <caption webpage="photography" alt=""/>
     </file>
     <file name="meirl.png" crc="4137539808" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="meirl_2x.png" crc="511455951" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
       <caption webpage="photography" alt=""/>
     </file>
     <file name="_dsc277260x40.jpg" crc="442027079" seo="true" ref="photography">
@@ -473,21 +486,18 @@
     <file name="timber-crop-u5389_2x2.jpg" crc="3917571498" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="jv_chair688x585.jpg" crc="3785971134" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
     <file name="u4642-42.png" crc="118971380" ref="photography"/>
     <file name="u4642-4_2x2.png" crc="351535087" ref="photography"/>
-    <file name="valentinesday-crop-u4711.jpg" crc="183796639" seo="true" ref="photography">
+    <file name="valentinesday-crop-u4711.jpg" crc="331039958" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u4711_2x.jpg" crc="481362255" seo="true" ref="photography">
+    <file name="valentinesday-crop-u4711_2x.jpg" crc="4063388444" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u4735.png" crc="4280637502" seo="true" ref="photography">
+    <file name="meirl-crop-u4735.png" crc="528619986" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u4735_2x.png" crc="4092477317" seo="true" ref="photography">
+    <file name="meirl-crop-u4735_2x.png" crc="1671031" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="date-crop-u52863.jpg" crc="529737161" seo="true" ref="photography">
@@ -502,21 +512,18 @@
     <file name="timber-crop-u5389_2x3.jpg" crc="3917571498" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="jv_chair672x572.jpg" crc="4022922909" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
     <file name="u4642-43.png" crc="496881391" ref="photography"/>
     <file name="u4642-4_2x3.png" crc="4245182052" ref="photography"/>
-    <file name="valentinesday-crop-u47112.jpg" crc="29996783" seo="true" ref="photography">
+    <file name="valentinesday-crop-u47112.jpg" crc="274117708" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u4711_2x2.jpg" crc="3924594711" seo="true" ref="photography">
+    <file name="valentinesday-crop-u4711_2x2.jpg" crc="4098391963" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u47352.png" crc="3808714981" seo="true" ref="photography">
+    <file name="meirl-crop-u47352.png" crc="55325798" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u4735_2x2.png" crc="3999278323" seo="true" ref="photography">
+    <file name="meirl-crop-u4735_2x2.png" crc="4040970168" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="date-crop-u52864.jpg" crc="529737161" seo="true" ref="photography">
@@ -531,21 +538,18 @@
     <file name="timber-crop-u5389_2x4.jpg" crc="3917571498" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="jv_chair642x547.jpg" crc="3990347620" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
     <file name="u4642-44.png" crc="426064966" ref="photography"/>
     <file name="u4642-4_2x4.png" crc="4239985720" ref="photography"/>
-    <file name="valentinesday-crop-u47113.jpg" crc="458712835" seo="true" ref="photography">
+    <file name="valentinesday-crop-u47113.jpg" crc="4022283649" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u4711_2x3.jpg" crc="191337940" seo="true" ref="photography">
+    <file name="valentinesday-crop-u4711_2x3.jpg" crc="3892749781" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u47353.png" crc="499792245" seo="true" ref="photography">
+    <file name="meirl-crop-u47353.png" crc="4106614896" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u4735_2x3.png" crc="4193970830" seo="true" ref="photography">
+    <file name="meirl-crop-u4735_2x3.png" crc="3993689577" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="date-crop-u52865.jpg" crc="529737161" seo="true" ref="photography">
@@ -560,21 +564,18 @@
     <file name="timber-crop-u5389_2x5.jpg" crc="3917571498" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="jv_chair607x516.jpg" crc="137344247" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
     <file name="u4642-45.png" crc="4074463803" ref="photography"/>
     <file name="u4642-4_2x5.png" crc="397934489" ref="photography"/>
-    <file name="valentinesday-crop-u47114.jpg" crc="433754898" seo="true" ref="photography">
+    <file name="valentinesday-crop-u47114.jpg" crc="4082041868" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u4711_2x4.jpg" crc="327654729" seo="true" ref="photography">
+    <file name="valentinesday-crop-u4711_2x4.jpg" crc="324368559" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u47354.png" crc="3906177064" seo="true" ref="photography">
+    <file name="meirl-crop-u47354.png" crc="3786399816" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u4735_2x4.png" crc="3867834780" seo="true" ref="photography">
+    <file name="meirl-crop-u4735_2x4.png" crc="4179864332" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="date-crop-u52866.jpg" crc="529737161" seo="true" ref="photography">
@@ -591,19 +592,16 @@
     </file>
     <file name="u4642-46.png" crc="3780959849" ref="photography"/>
     <file name="u4642-4_2x6.png" crc="4069785393" ref="photography"/>
-    <file name="jv_chair560x477.jpg" crc="4044850207" seo="true" ref="photography">
+    <file name="valentinesday-crop-u47115.jpg" crc="3974729026" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u47115.jpg" crc="4016565988" seo="true" ref="photography">
+    <file name="valentinesday-crop-u4711_2x5.jpg" crc="3791060745" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u4711_2x5.jpg" crc="4230069072" seo="true" ref="photography">
+    <file name="meirl-crop-u47355.png" crc="364014629" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u47355.png" crc="4077986087" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
-    <file name="meirl-crop-u4735_2x5.png" crc="3953745249" seo="true" ref="photography">
+    <file name="meirl-crop-u4735_2x5.png" crc="239986419" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="date-crop-u52867.jpg" crc="529737161" seo="true" ref="photography">
@@ -620,19 +618,16 @@
     </file>
     <file name="u4642-47.png" crc="3864223662" ref="photography"/>
     <file name="u4642-4_2x7.png" crc="121396662" ref="photography"/>
-    <file name="jv_chair529x450.jpg" crc="112128157" seo="true" ref="photography">
+    <file name="valentinesday-crop-u47116.jpg" crc="3971963023" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u47116.jpg" crc="450168033" seo="true" ref="photography">
+    <file name="valentinesday-crop-u4711_2x6.jpg" crc="147448230" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="valentinesday-crop-u4711_2x6.jpg" crc="430024764" seo="true" ref="photography">
+    <file name="meirl-crop-u47356.png" crc="4280424296" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="meirl-crop-u47356.png" crc="196906758" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
-    <file name="meirl-crop-u4735_2x6.png" crc="169170328" seo="true" ref="photography">
+    <file name="meirl-crop-u4735_2x6.png" crc="517940852" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="date-crop-u52868.jpg" crc="529737161" seo="true" ref="photography">
@@ -649,22 +644,7 @@
     </file>
     <file name="u4642-48.png" crc="4274707674" ref="photography"/>
     <file name="u4642-4_2x8.png" crc="64309563" ref="photography"/>
-    <file name="jv_chair498x424.jpg" crc="4038654377" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
-    <file name="valentinesday-crop-u47117.jpg" crc="3852614502" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
-    <file name="valentinesday-crop-u4711_2x7.jpg" crc="12320563" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
-    <file name="meirl-crop-u47357.png" crc="106844089" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
-    <file name="meirl-crop-u4735_2x7.png" crc="151580410" seo="true" ref="photography">
-      <caption webpage="photography" alt=""/>
-    </file>
-    <file name="design-favicon.ico" crc="18852184" ref="design"/>
+    <file name="design-favicon.ico" crc="3954998878" ref="phone>design"/>
     <file name="609.jpg" crc="326075029" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
@@ -763,11 +743,13 @@
     <file name="guitar_2x.jpg" crc="42024472" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="fts2.jpg" crc="44152170" seo="true" ref="design">
+    <file name="fts2.jpg" crc="3872885303" ref="work">
       <caption webpage="design" alt=""/>
+      <caption webpage="work" alt=""/>
     </file>
-    <file name="fts2_2x.jpg" crc="3837112011" seo="true" ref="design">
+    <file name="fts2_2x.jpg" crc="18482726" ref="work">
       <caption webpage="design" alt=""/>
+      <caption webpage="work" alt=""/>
     </file>
     <file name="ruinvited90s.jpg" crc="4184882118" seo="true" ref="design">
       <caption webpage="design" alt=""/>
@@ -1557,7 +1539,7 @@
     <file name="u9472-4_2x8.png" crc="3994206913" ref="design"/>
     <file name="u9632-48.png" crc="340323756" ref="design"/>
     <file name="u9632-4_2x8.png" crc="4123745572" ref="design"/>
-    <file name="music-favicon.ico" crc="18852184" ref="music"/>
+    <file name="music-favicon.ico" crc="3954998878" ref="phone>music"/>
     <file name="u10313-4.png" crc="326397295" ref="music"/>
     <file name="u10313-4_2x.png" crc="234645476" ref="music"/>
     <file name="u10313-42.png" crc="4055658693" ref="music"/>
@@ -1574,43 +1556,48 @@
     <file name="u10313-4_2x7.png" crc="55702531" ref="music"/>
     <file name="u10313-48.png" crc="3939636591" ref="music"/>
     <file name="u10313-4_2x8.png" crc="373729728" ref="music"/>
-    <file name="cv-favicon.ico" crc="18852184" ref="cv"/>
-    <file name="jvig2-u5835-fr.png" crc="243464482" ref="photography"/>
-    <file name="jvig2-u5835-fr_2x.png" crc="282087651" ref="photography"/>
-    <file name="jv_tw-u5836-fr.png" crc="207207659" ref="photography"/>
-    <file name="jv_tw-u5836-fr_2x.png" crc="3896930966" ref="photography"/>
-    <file name="jv_fb-u5837-fr.png" crc="187803115" ref="photography"/>
-    <file name="jv_fb-u5837-fr_2x.png" crc="3773917232" ref="photography"/>
-    <file name="jv_in-u5838-fr.png" crc="3919188016" ref="photography"/>
-    <file name="jv_in-u5838-fr_2x.png" crc="137004957" ref="photography"/>
-    <file name="jv_em-u5839-fr.png" crc="1925460" ref="photography"/>
-    <file name="jv_em-u5839-fr_2x.png" crc="3927312012" ref="photography"/>
-    <file name="jvig2-u5835-fr2.png" crc="316038117" ref="photography"/>
-    <file name="jvig2-u5835-fr_2x2.png" crc="4075850977" ref="photography"/>
-    <file name="jv_tw-u5836-fr2.png" crc="4157407856" ref="photography"/>
-    <file name="jv_tw-u5836-fr_2x2.png" crc="4267120268" ref="photography"/>
-    <file name="jv_fb-u5837-fr2.png" crc="4286653587" ref="photography"/>
-    <file name="jv_fb-u5837-fr_2x2.png" crc="160866848" ref="photography"/>
-    <file name="jv_in-u5838-fr2.png" crc="488580950" ref="photography"/>
-    <file name="jv_in-u5838-fr_2x2.png" crc="4202087415" ref="photography"/>
-    <file name="jv_em-u5839-fr2.png" crc="4053258585" ref="photography"/>
-    <file name="jv_em-u5839-fr_2x2.png" crc="3960821396" ref="photography"/>
-    <file name="jvig2-u5835-fr3.png" crc="3886798570" ref="photography"/>
-    <file name="jvig2-u5835-fr_2x3.png" crc="3938484133" ref="photography"/>
-    <file name="jv_tw-u5836-fr3.png" crc="3985523609" ref="photography"/>
-    <file name="jv_tw-u5836-fr_2x3.png" crc="3758496424" ref="photography"/>
-    <file name="jv_fb-u5837-fr3.png" crc="81911619" ref="photography"/>
-    <file name="jv_fb-u5837-fr_2x3.png" crc="3795866324" ref="photography"/>
-    <file name="jv_in-u5838-fr3.png" crc="4015840250" ref="photography"/>
-    <file name="jv_in-u5838-fr_2x3.png" crc="4261295732" ref="photography"/>
-    <file name="jv_em-u5839-fr3.png" crc="4272892738" ref="photography"/>
-    <file name="jv_em-u5839-fr_2x3.png" crc="3900287271" ref="photography"/>
+    <file name="cv-favicon.ico" crc="3954998878" ref="phone>cv"/>
+    <file name="fts2-u3666-r-fr.jpg" crc="4228624072" ref="work"/>
+    <file name="fts2-u3666-r-fr_2x.jpg" crc="249569764" ref="work"/>
+    <file name="fts2-u3666-r-fr2.jpg" crc="378619007" ref="work"/>
+    <file name="fts2-u3666-r-fr_2x2.jpg" crc="3973743766" ref="work"/>
+    <file name="fts2-u3666-r-fr3.jpg" crc="4267694894" ref="work"/>
+    <file name="fts2-u3666-r-fr_2x3.jpg" crc="4186034631" ref="work"/>
+    <file name="jv_chair697x593.jpg" crc="393917073" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="jv_chair666x567.jpg" crc="4152308916" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="jv_chair629x535.jpg" crc="399644068" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="jv_chair581x494.jpg" crc="4062817477" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="jv_chair548x467.jpg" crc="29612601" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="jv_chair516x439.jpg" crc="3962681643" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="fts22.jpg" crc="44152170" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="fts2_2x2.jpg" crc="3837112011" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="jvig2-u9763-fr.png" crc="4006107364" ref="cv"/>
+    <file name="jvig2-u9763-fr2.png" crc="3806738074" ref="cv"/>
+    <file name="jvig2-u9763-fr_2x.png" crc="3961933046" ref="cv"/>
+    <file name="jvig2-u9763-fr3.png" crc="4192403962" ref="cv"/>
+    <file name="jvig2-u9763-fr_2x2.png" crc="3999184090" ref="cv"/>
   </folder>
-  <file name="index.html" crc="4222658915" seo="true" mt="1491442088727" redirect="true"/>
-  <file name="videos.html" crc="163343365" seo="true" mt="1491441557044" redirect="true"/>
-  <file name="work.html" crc="3968800360" seo="true" mt="1491441384422" redirect="true"/>
-  <file name="photography.html" crc="3971112067" seo="true" mt="1491441824465" redirect="true"/>
-  <file name="design.html" crc="265292208" seo="true" mt="1491441518341" redirect="true"/>
-  <file name="music.html" crc="4028568806" seo="true" mt="1491441369905" redirect="true"/>
-  <file name="cv.html" crc="398153563" seo="true" mt="1491441389722" redirect="true"/>
+  <file name="index.html" crc="328144730" seo="true" mt="1491445813634" redirect="true"/>
+  <file name="videos.html" crc="187485234" seo="true" mt="1491446619640" redirect="true"/>
+  <file name="work.html" crc="67146568" seo="true" mt="1491445896025" redirect="true"/>
+  <file name="photography.html" crc="4243067840" seo="true" mt="1491446626612" redirect="true"/>
+  <file name="design.html" crc="4025573226" seo="true" mt="1491445851939" redirect="true"/>
+  <file name="music.html" crc="3800782684" seo="true" mt="1491445855713" redirect="true"/>
+  <file name="cv.html" crc="432632215" seo="true" mt="1491445825978" redirect="true"/>
 </manifest>

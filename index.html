@@ -7,18 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "index.css"], "outOfDate":[]};
 </script>
   
-  <link rel="shortcut icon" href="images/aboutindex-favicon.ico?crc=18852184"/>
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://johnnyvilla.com/phone/index.html"/>
+  <link rel="shortcut icon" href="images/aboutindex-favicon.ico?crc=3954998878"/>
   <title>About/Index</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4201123918" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=532063604" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=165504794" id="nomq_pagesheet"/>
+  <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -1094,52 +1104,53 @@ display: none;
 
 
   
-  <div class="rgba-background clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="u11019-7"><!-- content -->
-    <p>Also, <a class="nonblock" href="http://github.com/infinitegrin/JVPS">here's </a>the GitHub Respository for my site if you wanted some of its elements.</p>
-   </div>
-   <div class="clearfix grpelem" id="pu133-4"><!-- group -->
-    <div class="clearfix grpelem" id="u133-4"><!-- content -->
-     <p>Villa</p>
-    </div>
-    <div class="clearfix grpelem" id="u124-4"><!-- content -->
-     <p>Johnny</p>
-    </div>
-   </div>
-   <div class="clearfix grpelem" id="ppu98"><!-- column -->
-    <div class="clearfix colelem" id="pu98"><!-- group -->
-     <div class="grpelem" id="u98" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
-     <div class="clearfix grpelem" id="u136-4"><!-- content -->
-      <p>Home</p>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="1143"><!-- responsive breakpoint node -->
+   <div class="rgba-background clearfix" id="page"><!-- column -->
+    <div class="position_content" id="page_position_content">
+     <div class="clearfix colelem" id="pu101-14"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="u101-14" data-content-guid="u101-14_content"><!-- content -->
+       <p>PERFORMER.</p>
+       <p>MUSICIAN.</p>
+       <p>PHOTOGRAPHER.</p>
+       <p>FILMMAKER.</p>
+       <p>GRAPHIC DESIGNER.</p>
+       <p>GREAT WITH PARENTS!</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u133-4" data-content-guid="u133-4_content"><!-- content -->
+       <p>Villa</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u124-4" data-content-guid="u124-4_content"><!-- content -->
+       <p>Johnny</p>
+      </div>
+      <a class="nonblock nontext museBGSize rounded-corners grpelem shared_content" id="u2574" href="http://instagram.com/johnnyvii" data-content-guid="u2574_content"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize rounded-corners grpelem shared_content" id="u2584" href="http://twitter.com/jhnnyvii" data-content-guid="u2584_content"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize rounded-corners grpelem shared_content" id="u2608" href="http://fb.com/jhnnyvii" data-content-guid="u2608_content"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize rounded-corners grpelem shared_content" id="u2632" href="http://linkedin.com/in/johnnyvii" data-content-guid="u2632_content"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize rounded-corners grpelem shared_content" id="u2656" href="mailto:jonathan.arr.villa@gmail.com" data-content-guid="u2656_content"><!-- simple frame --></a>
      </div>
-    </div>
-    <div class="clearfix colelem" id="pu150"><!-- group -->
-     <a class="nonblock nontext grpelem" id="u150" href="work.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></a>
-     <a class="nonblock nontext clearfix grpelem" id="u153-4" href="work.html"><!-- content --><p>WORK</p></a>
-    </div>
-    <div class="clearfix colelem" id="pu145"><!-- group -->
-     <a class="nonblock nontext grpelem" id="u145" href="cv.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></a>
-     <a class="nonblock nontext transition clearfix grpelem" id="u162-4" href="cv.html"><!-- content --><p>CV</p></a>
-    </div>
-   </div>
-   <div class="clearfix grpelem" id="u3870-4"><!-- content -->
-    <p>Hi there! I'm a sophomore at Rutgers University studying Information Technology &amp; Informatics. Since middle school, I've been heavily involved in the arts, and hope to combine both into whatever field I end up at. Take a look around and if you like what you see-- tell a friend, show a friend, or just contact me and be a friend!</p>
-   </div>
-   <div class="clearfix grpelem" id="u101-14"><!-- content -->
-    <p>PERFORMER.</p>
-    <p>MUSICIAN.</p>
-    <p>PHOTOGRAPHER.</p>
-    <p>FILMMAKER.</p>
-    <p>GRAPHIC DESIGNER.</p>
-    <p>GREAT WITH PARENTS!</p>
-   </div>
-   <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u2574" href="http://intsagram.com/johnnyvii"><!-- simple frame --></a>
-   <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u2584" href="http://twitter.com/jhnnyvii"><!-- simple frame --></a>
-   <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u2608" href="http://fb.com/jhnnyvii"><!-- simple frame --></a>
-   <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u2632" href="http://linkedin.com/in/johnnyvii"><!-- simple frame --></a>
-   <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u2656" href="mailto:jonathan.arr.villa@gmail.com"><!-- simple frame --></a>
-   <div class="size_fixed grpelem" id="u2795"><!-- custom html -->
-    
+     <div class="clearfix colelem shared_content" id="pu98" data-content-guid="pu98_content"><!-- group -->
+      <div class="grpelem" id="u98" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+      <div class="clearfix grpelem shared_content" id="u136-4" data-content-guid="u136-4_content"><!-- content -->
+       <p id="u136-2">Home</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pppu150"><!-- group -->
+      <div class="clearfix grpelem" id="ppu150"><!-- column -->
+       <div class="clearfix colelem" id="pu150"><!-- group -->
+        <a class="nonblock nontext grpelem shared_content" id="u150" href="work.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0" data-content-guid="u150_content"><!-- simple frame --></a>
+        <a class="nonblock nontext clearfix grpelem shared_content" id="u153-4" href="work.html" data-content-guid="u153-4_content"><!-- content --><p id="u153-2">WORK</p></a>
+       </div>
+       <div class="clearfix colelem shared_content" id="pu145" data-content-guid="pu145_content"><!-- group -->
+        <a class="nonblock nontext grpelem" id="u145" href="cv.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></a>
+        <a class="nonblock nontext transition clearfix grpelem shared_content" id="u162-4" href="cv.html" data-content-guid="u162-4_content"><!-- content --><p id="u162-2">CV</p></a>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u12091-4"><!-- content -->
+       <p>Hi there! I'm a sophomore at Rutgers University studying Information Technology &amp; Informatics. Since middle school, I've been heavily involved in the arts, and hope to combine both into whatever field I end up at. Take a look around and if you like what you see-- tell a friend, show a friend, or just contact me and be a friend!</p>
+      </div>
+     </div>
+     <div class="size_fixed colelem shared_content" id="u2795" data-content-guid="u2795_content"><!-- custom html -->
+      
 
 <div class='qooqeeu2795' ></div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
@@ -1148,8 +1159,112 @@ display: none;
 
 
 
+     </div>
+     <div class="clearfix colelem" id="u11019-7"><!-- content -->
+      <p>Also, <a class="nonblock" href="http://github.com/infinitegrin/JVPS">here's </a>the GitHub Respository for my site if you wanted some of its elements.</p>
+     </div>
+     <div class="verticalspacer" data-offset-top="928" data-content-above-spacer="928" data-content-below-spacer="62"></div>
+    </div>
    </div>
-   <div class="verticalspacer" data-offset-top="928" data-content-above-spacer="928" data-content-below-spacer="61"></div>
+  </div>
+  <div class="breakpoint" id="bp_1142" data-min-width="1021" data-max-width="1142"><!-- responsive breakpoint node -->
+   <div class="rgba-background clearfix temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu101-14"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u101-14_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u133-4_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u124-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="ppu145"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="pu145_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u150_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u153-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu98_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu2574"><!-- group -->
+      <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2574_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2584_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2608_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2632_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2656_content"><!-- placeholder node --></span>
+     </div>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u2795_content"><!-- placeholder node --></span>
+     <div class="verticalspacer" data-offset-top="777" data-content-above-spacer="777" data-content-below-spacer="62"></div>
+    </div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_1020" data-min-width="969" data-max-width="1020"><!-- responsive breakpoint node -->
+   <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pu133-4"><!-- group -->
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u133-4_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u124-4_content"><!-- placeholder node --></span>
+    </div>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2574_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu101-14"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="u101-14_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id shared_content" data-orig-id="pu150" data-content-guid="pu150_content"><!-- group -->
+      <a class="nonblock nontext grpelem temp_no_id" href="work.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0" data-orig-id="u150"><!-- simple frame --><div class="fluid_height_spacer"></div></a>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u153-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id shared_content" data-orig-id="pu98" data-content-guid="pu98_content1"><!-- group -->
+      <div class="grpelem temp_no_id shared_content" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0" data-orig-id="u98" data-content-guid="u98_content"><!-- simple frame -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u136-4_content"><!-- placeholder node --></span>
+     </div>
+    </div>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2584_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2608_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2632_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id shared_content" data-orig-id="pu145" data-content-guid="pu145_content1"><!-- group -->
+     <a class="nonblock nontext grpelem temp_no_id shared_content" href="cv.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0" data-orig-id="u145" data-content-guid="u145_content"><!-- simple frame --><div class="fluid_height_spacer"></div></a>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u162-4_content"><!-- placeholder node --></span>
+    </div>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2656_content"><!-- placeholder node --></span>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u2795_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="777" data-content-above-spacer="777" data-content-below-spacer="62"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_968" data-min-width="927" data-max-width="968"><!-- responsive breakpoint node -->
+   <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu133-4"><!-- group -->
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u133-4_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u124-4_content"><!-- placeholder node --></span>
+    </div>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2574_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu101-14"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="u101-14_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu150_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u98_content"><!-- placeholder node --></span>
+    </div>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2584_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="u136-4_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2608_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2632_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu145_content1"><!-- placeholder node --></span>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2656_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="460" data-content-above-spacer="460" data-content-below-spacer="62"></div>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u2795_content"><!-- placeholder node --></span>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_926" data-max-width="926"><!-- responsive breakpoint node -->
+   <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2574_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="ppu133-4"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu133-4"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u133-4_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u124-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu98_content1"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu150_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext colelem placeholder" data-placeholder-for="u145_content"><!-- placeholder node --></span>
+    </div>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2584_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u162-4_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u2632_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="527" data-content-above-spacer="526" data-content-below-spacer="61"></div>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u2795_content"><!-- placeholder node --></span>
+   </div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -1164,13 +1279,13 @@ display: none;
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 

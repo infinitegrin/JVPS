@@ -5,6 +5,7 @@
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/index.html"/>
   </url>
   <url>
     <loc>http://johnnyvilla.com/videos.html</loc>
@@ -70,12 +71,6 @@
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/guitar_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/fts2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/fts2_2x.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/ruinvited90s.jpg</image:loc>
@@ -689,6 +684,12 @@
     <image:image>
       <image:loc>http://johnnyvilla.com/images/phone2-crop-u8278_2x8.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/fts22.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/fts2_2x2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://johnnyvilla.com/cv.html</loc>
@@ -701,6 +702,7 @@
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/work.html"/>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/_dsc2772-crop-u3675.jpg</image:loc>
     </image:image>
@@ -903,9 +905,6 @@
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x2.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/jv_chair688x585.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u4711.jpg</image:loc>
     </image:image>
     <image:image>
@@ -928,9 +927,6 @@
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x3.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/jv_chair672x572.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u47112.jpg</image:loc>
@@ -957,9 +953,6 @@
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x4.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/jv_chair642x547.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u47113.jpg</image:loc>
     </image:image>
     <image:image>
@@ -982,9 +975,6 @@
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x5.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/jv_chair607x516.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u47114.jpg</image:loc>
@@ -1011,9 +1001,6 @@
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x6.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/jv_chair560x477.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u47115.jpg</image:loc>
     </image:image>
     <image:image>
@@ -1036,9 +1023,6 @@
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x7.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/jv_chair529x450.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u47116.jpg</image:loc>
@@ -1065,19 +1049,22 @@
       <image:loc>http://johnnyvilla.com/images/timber-crop-u5389_2x8.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/jv_chair498x424.jpg</image:loc>
+      <image:loc>http://johnnyvilla.com/images/jv_chair697x593.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u47117.jpg</image:loc>
+      <image:loc>http://johnnyvilla.com/images/jv_chair666x567.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/valentinesday-crop-u4711_2x7.jpg</image:loc>
+      <image:loc>http://johnnyvilla.com/images/jv_chair629x535.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/meirl-crop-u47357.png</image:loc>
+      <image:loc>http://johnnyvilla.com/images/jv_chair581x494.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://johnnyvilla.com/images/meirl-crop-u4735_2x7.png</image:loc>
+      <image:loc>http://johnnyvilla.com/images/jv_chair548x467.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/jv_chair516x439.jpg</image:loc>
     </image:image>
   </url>
   <url>

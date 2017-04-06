@@ -7,21 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/work.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "jquery.museresponsive.js", "work.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "work.css"], "outOfDate":[]};
 </script>
   
-  <link rel="shortcut icon" href="images/work-favicon.ico?crc=18852184"/>
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://johnnyvilla.com/phone/work.html"/>
+  <link rel="shortcut icon" href="images/work-favicon.ico?crc=3954998878"/>
   <title>Work</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/work.css?crc=147429097" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/work.css?crc=4082233201" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_work.css?crc=4073834016" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_work.css?crc=3849508220" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -1099,67 +1105,49 @@ display: none;
 
   
   <div class="breakpoint active" id="bp_infinity" data-min-width="1158"><!-- responsive breakpoint node -->
-   <div class="rgba-background clearfix borderbox" id="page"><!-- group -->
-    <div class="clearfix grpelem shared_content" id="pu3658-4" data-content-guid="pu3658-4_content"><!-- group -->
+   <div class="rgba-background clearfix" id="page"><!-- column -->
+    <div class="clearfix colelem" id="pu3664-14"><!-- group -->
+     <div class="clearfix grpelem shared_content" id="u3664-14" data-content-guid="u3664-14_content"><!-- content -->
+      <p>PERFORMER.</p>
+      <p>MUSICIAN.</p>
+      <p>PHOTOGRAPHER.</p>
+      <p>FILMMAKER.</p>
+      <p>GRAPHIC DESIGNER.</p>
+      <p>GREAT WITH PARENTS!</p>
+     </div>
      <a class="nonblock nontext clearfix grpelem shared_content" id="u3658-4" href="index.html" data-content-guid="u3658-4_content"><!-- content --><p>Villa</p></a>
      <a class="nonblock nontext clearfix grpelem shared_content" id="u3660-4" href="index.html" data-content-guid="u3660-4_content"><!-- content --><p>Johnny</p></a>
-    </div>
-    <div class="clearfix grpelem" id="ppu3678"><!-- column -->
-     <div class="clearfix colelem shared_content" id="pu3678" data-content-guid="pu3678_content"><!-- group -->
-      <a class="nonblock nontext grpelem" id="u3678" href="index.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></a>
-      <a class="nonblock nontext clearfix grpelem" id="u3661-4" href="index.html"><!-- content --><p id="u3661-2">Home</p></a>
+     <div class="rounded-corners clearfix grpelem" id="u3659"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10191" href="http://instagram.com/johnnyvii"><!-- simple frame --></a>
      </div>
-     <div class="clearfix colelem shared_content" id="pu3654" data-content-guid="pu3654_content"><!-- group -->
-      <div class="grpelem" id="u3654" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
-      <div class="clearfix grpelem" id="u3656-4"><!-- content -->
-       <p id="u3656-2">WORK</p>
-      </div>
+     <div class="rounded-corners clearfix grpelem" id="u3667"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10192" href="http://twitter.com/jhnnyvii"><!-- simple frame --></a>
      </div>
-     <div class="clearfix colelem shared_content" id="pu3680" data-content-guid="pu3680_content"><!-- group -->
-      <a class="nonblock nontext grpelem" id="u3680" href="cv.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></a>
-      <a class="nonblock nontext transition clearfix grpelem" id="u3665-4" href="cv.html"><!-- content --><p>CV</p></a>
+     <div class="rounded-corners clearfix grpelem" id="u3669"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10193" href="http://fb.com/jhnnyvii"><!-- simple frame --></a>
      </div>
-    </div>
-    <div class="clearfix grpelem" id="pu3675"><!-- column -->
-     <a class="nonblock nontext transition rgba-background clip_frame colelem" id="u3675" href="photography.html"><!-- image --><img class="block temp_no_img_src" id="u3675_img" data-orig-src="images/_dsc2772-crop-u3675.jpg?crc=17978230" data-hidpi-src="images/_dsc2772-crop-u3675_2x.jpg?crc=4288176048" alt="" data-image-width="376" data-image-height="185" src="images/blank.gif?crc=4208392903"/></a>
-     <div class="pointer_cursor museBGSize rgba-background transition clearfix colelem" id="u3666"><!-- group -->
-      <a class="block shared_content" href="music.html" data-content-guid="u3666_0_content"><!-- Block link tag --></a>
-      <a class="nonblock nontext clearfix grpelem shared_content" id="u3657-4" href="music.html" data-content-guid="u3657-4_content"><!-- content --><p id="u3657-2">Music</p></a>
+     <div class="rounded-corners clearfix grpelem" id="u3668"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10194" href="http://linkedin.com/in/johnnyvii"><!-- simple frame --></a>
+     </div>
+     <div class="rounded-corners clearfix grpelem" id="u3679"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem shared_content" id="u10195" href="mailto:jonathan.arr.villa@gmail.com" data-content-guid="u10195_content"><!-- simple frame --></a>
      </div>
     </div>
-    <div class="clearfix grpelem shared_content" id="u3664-14" data-content-guid="u3664-14_content"><!-- content -->
-     <p>PERFORMER.</p>
-     <p>MUSICIAN.</p>
-     <p>PHOTOGRAPHER.</p>
-     <p>FILMMAKER.</p>
-     <p>GRAPHIC DESIGNER.</p>
-     <p>GREAT WITH PARENTS!</p>
-    </div>
-    <a class="nonblock nontext clearfix grpelem shared_content" id="u3670-4" href="photography.html" data-content-guid="u3670-4_content"><!-- content --><p id="u3670-2">Photos</p></a>
-    <a class="nonblock nontext rgba-background transition clip_frame clearfix grpelem shared_content" id="u3673" href="videos.html" data-content-guid="u3673_content"><!-- image --><img class="position_content temp_no_img_src" id="u3673_img" data-orig-src="images/pasted%20image%201251x635.jpg?crc=7444621" data-hidpi-src="images/pasted%20image%201251x635_2x.jpg?crc=409920718" alt="" width="412" height="204" src="images/blank.gif?crc=4208392903"/></a>
-    <div class="clearfix grpelem" id="ppu3659"><!-- column -->
-     <div class="clearfix colelem" id="pu3659"><!-- group -->
-      <div class="rounded-corners clearfix grpelem" id="u3659"><!-- group -->
-       <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10191" href="http://intsagram.com/johnnyvii"><!-- simple frame --></a>
+    <div class="clearfix colelem" id="pppu3678"><!-- group -->
+     <div class="clearfix grpelem shared_content" id="ppu3678" data-content-guid="ppu3678_content"><!-- column -->
+      <div class="clearfix colelem" id="pu3678"><!-- group -->
+       <a class="nonblock nontext grpelem" id="u3678" href="index.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u3661-4" href="index.html"><!-- content --><p id="u3661-2">Home</p></a>
       </div>
-      <div class="rounded-corners clearfix grpelem" id="u3667"><!-- group -->
-       <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10192" href="http://twitter.com/jhnnyvii"><!-- simple frame --></a>
-      </div>
-      <div class="rounded-corners clearfix grpelem" id="u3669"><!-- group -->
-       <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10193" href="http://fb.com/jhnnyvii"><!-- simple frame --></a>
-      </div>
-      <div class="rounded-corners clearfix grpelem" id="u3668"><!-- group -->
-       <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10194" href="http://linkedin.com/in/johnnyvii"><!-- simple frame --></a>
+      <div class="clearfix colelem" id="pu3654"><!-- group -->
+       <div class="grpelem" id="u3654" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+       <div class="clearfix grpelem" id="u3656-4"><!-- content -->
+        <p id="u3656-2">WORK</p>
+       </div>
       </div>
      </div>
-     <div class="clearfix colelem" id="pu3662"><!-- group -->
-      <a class="nonblock nontext rgba-background transition clip_frame grpelem" id="u3662" href="design.html"><!-- image --><img class="block temp_no_img_src" id="u3662_img" data-orig-src="images/phone2-crop-u3662.jpg?crc=4018497875" data-hidpi-src="images/phone2-crop-u3662_2x.jpg?crc=209093346" alt="" data-image-width="209" data-image-height="184" src="images/blank.gif?crc=4208392903"/></a>
-      <a class="nonblock nontext clearfix grpelem shared_content" id="u3653-4" href="design.html" data-content-guid="u3653-4_content"><!-- content --><p id="u3653-2">Designs</p></a>
-     </div>
-     <a class="nonblock nontext clearfix colelem shared_content" id="u3672-4" href="videos.html" data-content-guid="u3672-4_content"><!-- content --><p id="u3672-2">Videos</p></a>
-    </div>
-    <div class="size_fixed grpelem shared_content" id="u10589" data-content-guid="u10589_content"><!-- custom html -->
-     
+     <div class="size_fixed grpelem shared_content" id="u10589" data-content-guid="u10589_content"><!-- custom html -->
+      
 
 <div class='qooqeeu10589' ></div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
@@ -1168,20 +1156,39 @@ display: none;
 
 
 
+     </div>
     </div>
-    <div class="rounded-corners clearfix grpelem" id="u3679"><!-- group -->
-     <a class="nonblock nontext museBGSize rounded-corners grpelem shared_content" id="u10195" href="mailto:jonathan.arr.villa@gmail.com" data-content-guid="u10195_content"><!-- simple frame --></a>
+    <div class="clearfix colelem" id="ppu3675"><!-- group -->
+     <div class="clearfix grpelem" id="pu3675"><!-- group -->
+      <a class="nonblock nontext transition rgba-background clip_frame grpelem" id="u3675" href="photography.html"><!-- image --><img class="block temp_no_img_src" id="u3675_img" data-orig-src="images/_dsc2772-crop-u3675.jpg?crc=17978230" data-hidpi-src="images/_dsc2772-crop-u3675_2x.jpg?crc=4288176048" alt="" width="376" height="185" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clearfix grpelem shared_content" id="u3670-4" href="photography.html" data-content-guid="u3670-4_content"><!-- content --><p id="u3670-2">Photos</p></a>
+     </div>
+     <a class="nonblock nontext grpelem shared_content" id="u3680" href="cv.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0" data-content-guid="u3680_content"><!-- simple frame --></a>
+     <a class="nonblock nontext transition clearfix grpelem shared_content" id="u3665-4" href="cv.html" data-content-guid="u3665-4_content"><!-- content --><p>CV</p></a>
+     <a class="nonblock nontext rgba-background transition clip_frame grpelem" id="u3662" href="design.html"><!-- image --><img class="block temp_no_img_src" id="u3662_img" data-orig-src="images/phone2-crop-u3662.jpg?crc=4018497875" data-hidpi-src="images/phone2-crop-u3662_2x.jpg?crc=209093346" alt="" width="209" height="184" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u3653-4" href="design.html" data-content-guid="u3653-4_content"><!-- content --><p id="u3653-2">Designs</p></a>
     </div>
-    <div class="verticalspacer shared_content" data-offset-top="783" data-content-above-spacer="783" data-content-below-spacer="61" data-content-guid="page_9_content"></div>
+    <div class="clearfix colelem" id="pu3673"><!-- group -->
+     <a class="nonblock nontext rgba-background transition clip_frame clearfix grpelem shared_content" id="u3673" href="videos.html" data-content-guid="u3673_content"><!-- image --><img class="position_content temp_no_img_src" id="u3673_img" data-orig-src="images/pasted%20image%201251x635.jpg?crc=7444621" data-hidpi-src="images/pasted%20image%201251x635_2x.jpg?crc=409920718" alt="" width="412" height="204" src="images/blank.gif?crc=4208392903"/></a>
+     <div class="pointer_cursor museBGSize rgba-background transition clearfix grpelem" id="u3666"><!-- group -->
+      <a class="block shared_content" href="music.html" data-content-guid="u3666_0_content"><!-- Block link tag --></a>
+      <a class="nonblock nontext clearfix grpelem shared_content" id="u3657-4" href="music.html" data-content-guid="u3657-4_content"><!-- content --><p id="u3657-2">Music</p></a>
+     </div>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u3672-4" href="videos.html" data-content-guid="u3672-4_content"><!-- content --><p id="u3672-2">Videos</p></a>
+    </div>
+    <div class="verticalspacer" data-offset-top="783" data-content-above-spacer="783" data-content-below-spacer="62"></div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2.png?crc=3758741372" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.png?crc=108211206" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2.jpg?crc=3872885303" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.jpg?crc=18482726" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_1157" data-min-width="1131" data-max-width="1157"><!-- responsive breakpoint node -->
    <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3658-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu3658-4"><!-- group -->
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3658-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3660-4_content"><!-- placeholder node --></span>
+    </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu3675"><!-- column -->
      <a class="nonblock nontext transition rgba-background clip_frame colelem temp_no_id" href="photography.html" data-orig-id="u3675"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/_dsc2772-crop-u36752.jpg?crc=4292400036" data-hidpi-src="images/_dsc2772-crop-u3675_2x2.jpg?crc=3830482962" alt="" data-image-width="362" data-image-height="178" data-orig-id="u3675_img" src="images/blank.gif?crc=4208392903"/></a>
      <div class="clearfix colelem" id="pu3666"><!-- group -->
@@ -1194,24 +1201,27 @@ display: none;
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3670-4_content"><!-- placeholder node --></span>
      </div>
     </div>
-    <div class="clearfix grpelem" id="pu3664-14"><!-- column -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3664-14"><!-- column -->
      <span class="clearfix colelem placeholder" data-placeholder-for="u3664-14_content"><!-- placeholder node --></span>
      <span class="nonblock nontext rgba-background transition clip_frame clearfix colelem placeholder" data-placeholder-for="u3673_content"><!-- placeholder node --></span>
     </div>
-    <div class="rounded-corners clearfix grpelem temp_no_id shared_content" data-orig-id="u3659" data-content-guid="u3659_content"><!-- group -->
-     <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u3667"><!-- group -->
-      <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u3669"><!-- group -->
-       <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u3668"><!-- group -->
-        <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u3679"><!-- group -->
-         <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10191"><!-- group -->
-          <a class="block" href="http://intsagram.com/johnnyvii"><!-- Block link tag --></a>
-          <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10192"><!-- group -->
-           <a class="block" href="http://twitter.com/jhnnyvii"><!-- Block link tag --></a>
-           <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10193"><!-- group -->
-            <a class="block" href="http://fb.com/jhnnyvii"><!-- Block link tag --></a>
-            <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10194"><!-- group -->
-             <a class="block" href="http://linkedin.com/in/johnnyvii"><!-- Block link tag --></a>
-             <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u10195_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="ppu3659"><!-- column -->
+     <div class="clearfix colelem shared_content" id="pu3659" data-content-guid="pu3659_content"><!-- group -->
+      <div class="rounded-corners grpelem temp_no_id shared_content" data-orig-id="u3659" data-content-guid="u3659_content"><!-- simple frame --></div>
+      <div class="rounded-corners clearfix grpelem temp_no_id shared_content" data-orig-id="u3667" data-content-guid="u3667_content"><!-- group -->
+       <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u3669"><!-- group -->
+        <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u3668"><!-- group -->
+         <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u3679"><!-- group -->
+          <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10191"><!-- group -->
+           <a class="block" href="http://instagram.com/johnnyvii"><!-- Block link tag --></a>
+           <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10192"><!-- group -->
+            <a class="block" href="http://twitter.com/jhnnyvii"><!-- Block link tag --></a>
+            <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10193"><!-- group -->
+             <a class="block" href="http://fb.com/jhnnyvii"><!-- Block link tag --></a>
+             <div class="pointer_cursor museBGSize rounded-corners clearfix grpelem temp_no_id" data-orig-id="u10194"><!-- group -->
+              <a class="block" href="http://linkedin.com/in/johnnyvii"><!-- Block link tag --></a>
+              <span class="nonblock nontext museBGSize rounded-corners grpelem placeholder" data-placeholder-for="u10195_content"><!-- placeholder node --></span>
+             </div>
             </div>
            </div>
           </div>
@@ -1220,24 +1230,27 @@ display: none;
        </div>
       </div>
      </div>
+     <a class="nonblock nontext rgba-background transition clip_frame colelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36622.jpg?crc=514211725" data-hidpi-src="images/phone2-crop-u3662_2x2.jpg?crc=3966449369" alt="" data-image-width="202" data-image-height="178" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
     </div>
-    <a class="nonblock nontext rgba-background transition clip_frame grpelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36622.jpg?crc=514211725" data-hidpi-src="images/phone2-crop-u3662_2x2.jpg?crc=3966449369" alt="" data-image-width="202" data-image-height="178" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3678"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3678_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3654_content"><!-- placeholder node --></span>
-    </div>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu3678_content"><!-- placeholder node --></span>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u10589_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3680_content"><!-- placeholder node --></span>
-    <div class="verticalspacer shared_content" data-offset-top="783" data-content-above-spacer="783" data-content-below-spacer="61" data-content-guid="page_8_content"></div>
+    <div class="clearfix grpelem" id="pu3680"><!-- group -->
+     <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u3680_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u3665-4_content"><!-- placeholder node --></span>
+    </div>
+    <div class="verticalspacer shared_content" data-offset-top="783" data-content-above-spacer="783" data-content-below-spacer="61" data-content-guid="page_7_content"></div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2.png?crc=3758741372" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.png?crc=108211206" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2.jpg?crc=3872885303" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.jpg?crc=18482726" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_1130" data-min-width="1081" data-max-width="1130"><!-- responsive breakpoint node -->
    <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3658-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3658-4"><!-- group -->
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3658-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3660-4_content"><!-- placeholder node --></span>
+    </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu3675"><!-- column -->
      <a class="nonblock nontext transition rgba-background clip_frame colelem temp_no_id" href="photography.html" data-orig-id="u3675"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/_dsc2772-crop-u36753.jpg?crc=505705087" data-hidpi-src="images/_dsc2772-crop-u3675_2x3.jpg?crc=187334234" alt="" data-image-width="354" data-image-height="174" data-orig-id="u3675_img" src="images/blank.gif?crc=4208392903"/></a>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu3666"><!-- group -->
@@ -1254,26 +1267,29 @@ display: none;
      <span class="clearfix colelem placeholder" data-placeholder-for="u3664-14_content"><!-- placeholder node --></span>
      <span class="nonblock nontext rgba-background transition clip_frame clearfix colelem placeholder" data-placeholder-for="u3673_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3659"><!-- column -->
-     <span class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u3659_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3659"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu3659_content"><!-- placeholder node --></span>
      <a class="nonblock nontext rgba-background transition clip_frame colelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36623.jpg?crc=446132724" data-hidpi-src="images/phone2-crop-u3662_2x3.jpg?crc=536132408" alt="" data-image-width="197" data-image-height="174" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3678"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3678_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3654_content"><!-- placeholder node --></span>
-    </div>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu3678_content"><!-- placeholder node --></span>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u10589_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3680_content"><!-- placeholder node --></span>
-    <div class="verticalspacer shared_content" data-offset-top="783" data-content-above-spacer="783" data-content-below-spacer="61" data-content-guid="page_7_content"></div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3680"><!-- group -->
+     <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u3680_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u3665-4_content"><!-- placeholder node --></span>
+    </div>
+    <span class="verticalspacer placeholder" data-placeholder-for="page_7_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2.png?crc=3758741372" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.png?crc=108211206" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2.jpg?crc=3872885303" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.jpg?crc=18482726" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_1080" data-min-width="1021" data-max-width="1080"><!-- responsive breakpoint node -->
    <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3658-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3658-4"><!-- group -->
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3658-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3660-4_content"><!-- placeholder node --></span>
+    </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu3675"><!-- column -->
      <a class="nonblock nontext transition rgba-background clip_frame colelem temp_no_id" href="photography.html" data-orig-id="u3675"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/_dsc2772-crop-u36754.jpg?crc=3798948760" data-hidpi-src="images/_dsc2772-crop-u3675_2x4.jpg?crc=4159302636" alt="" data-image-width="338" data-image-height="166" data-orig-id="u3675_img" src="images/blank.gif?crc=4208392903"/></a>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu3666"><!-- group -->
@@ -1290,26 +1306,29 @@ display: none;
      <span class="clearfix colelem placeholder" data-placeholder-for="u3664-14_content"><!-- placeholder node --></span>
      <span class="nonblock nontext rgba-background transition clip_frame clearfix colelem placeholder" data-placeholder-for="u3673_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3659"><!-- column -->
-     <span class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u3659_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3659"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu3659_content"><!-- placeholder node --></span>
      <a class="nonblock nontext rgba-background transition clip_frame colelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36624.jpg?crc=3770129789" data-hidpi-src="images/phone2-crop-u3662_2x4.jpg?crc=4289733451" alt="" data-image-width="189" data-image-height="166" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3678"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3678_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3654_content"><!-- placeholder node --></span>
-    </div>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu3678_content"><!-- placeholder node --></span>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u10589_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3680_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3680"><!-- group -->
+     <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u3680_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u3665-4_content"><!-- placeholder node --></span>
+    </div>
     <span class="verticalspacer placeholder" data-placeholder-for="page_7_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2.png?crc=3758741372" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.png?crc=108211206" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2.jpg?crc=3872885303" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.jpg?crc=18482726" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_1020" data-min-width="943" data-max-width="1020"><!-- responsive breakpoint node -->
    <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3658-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3658-4"><!-- group -->
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3658-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3660-4_content"><!-- placeholder node --></span>
+    </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu3675"><!-- column -->
      <a class="nonblock nontext transition rgba-background clip_frame colelem temp_no_id" href="photography.html" data-orig-id="u3675"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/_dsc2772-crop-u36755.jpg?crc=295571335" data-hidpi-src="images/_dsc2772-crop-u3675_2x5.jpg?crc=280017499" alt="" data-image-width="319" data-image-height="157" data-orig-id="u3675_img" src="images/blank.gif?crc=4208392903"/></a>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu3666"><!-- group -->
@@ -1326,26 +1345,29 @@ display: none;
      <span class="clearfix colelem placeholder" data-placeholder-for="u3664-14_content"><!-- placeholder node --></span>
      <span class="nonblock nontext rgba-background transition clip_frame clearfix colelem placeholder" data-placeholder-for="u3673_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3659"><!-- column -->
-     <span class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u3659_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3659"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu3659_content"><!-- placeholder node --></span>
      <a class="nonblock nontext rgba-background transition clip_frame colelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36625.jpg?crc=525608811" data-hidpi-src="images/phone2-crop-u3662_2x5.jpg?crc=3861133216" alt="" data-image-width="178" data-image-height="157" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3678"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3678_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3654_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu3678_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3680"><!-- group -->
+     <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u3680_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u3665-4_content"><!-- placeholder node --></span>
     </div>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3680_content"><!-- placeholder node --></span>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u10589_content"><!-- placeholder node --></span>
     <span class="verticalspacer placeholder" data-placeholder-for="page_7_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2.png?crc=3758741372" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.png?crc=108211206" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2.jpg?crc=3872885303" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2_2x.jpg?crc=18482726" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_942" data-min-width="890" data-max-width="942"><!-- responsive breakpoint node -->
    <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3658-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3658-4"><!-- group -->
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3658-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3660-4_content"><!-- placeholder node --></span>
+    </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu3675"><!-- column -->
      <a class="nonblock nontext transition rgba-background clip_frame colelem temp_no_id" href="photography.html" data-orig-id="u3675"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/_dsc2772-crop-u36756.jpg?crc=4083955784" data-hidpi-src="images/_dsc2772-crop-u3675_2x6.jpg?crc=4171060795" alt="" data-image-width="295" data-image-height="145" data-orig-id="u3675_img" src="images/blank.gif?crc=4208392903"/></a>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu3666"><!-- group -->
@@ -1359,25 +1381,31 @@ display: none;
      </div>
     </div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="u3664-14_content"><!-- placeholder node --></span>
-    <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u3659_content"><!-- placeholder node --></span>
+    <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u3667_content"><!-- placeholder node --></span>
     <span class="nonblock nontext rgba-background transition clip_frame clearfix grpelem placeholder" data-placeholder-for="u3673_content"><!-- placeholder node --></span>
-    <a class="nonblock nontext rgba-background transition clip_frame grpelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36626.jpg?crc=4110369938" data-hidpi-src="images/phone2-crop-u3662_2x6.jpg?crc=3790596001" alt="" data-image-width="165" data-image-height="145" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3678"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3678_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3654_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3659"><!-- column -->
+     <span class="rounded-corners colelem placeholder" data-placeholder-for="u3659_content"><!-- placeholder node --></span>
+     <a class="nonblock nontext rgba-background transition clip_frame colelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36626.jpg?crc=4110369938" data-hidpi-src="images/phone2-crop-u3662_2x6.jpg?crc=3790596001" alt="" data-image-width="165" data-image-height="145" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
     </div>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3680_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu3678_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3680"><!-- group -->
+     <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u3680_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u3665-4_content"><!-- placeholder node --></span>
+    </div>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u10589_content"><!-- placeholder node --></span>
-    <span class="verticalspacer placeholder" data-placeholder-for="page_9_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="783" data-content-above-spacer="783" data-content-below-spacer="61"></div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr.png?crc=3882594681" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr_2x.png?crc=4100476443" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr.jpg?crc=4228624072" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr_2x.jpg?crc=249569764" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_889" data-min-width="838" data-max-width="889"><!-- responsive breakpoint node -->
    <div class="rgba-background clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3658-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3658-4"><!-- group -->
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3658-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3660-4_content"><!-- placeholder node --></span>
+    </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu3675"><!-- column -->
      <a class="nonblock nontext transition rgba-background clip_frame colelem temp_no_id" href="photography.html" data-orig-id="u3675"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/_dsc2772-crop-u36757.jpg?crc=301884079" data-hidpi-src="images/_dsc2772-crop-u3675_2x7.jpg?crc=286112122" alt="" data-image-width="279" data-image-height="137" data-orig-id="u3675_img" src="images/blank.gif?crc=4208392903"/></a>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu3666"><!-- group -->
@@ -1391,22 +1419,22 @@ display: none;
      </div>
     </div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="u3664-14_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3659"><!-- column -->
-     <span class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u3659_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3659"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu3659_content"><!-- placeholder node --></span>
      <a class="nonblock nontext rgba-background transition clip_frame colelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36627.jpg?crc=3947626857" data-hidpi-src="images/phone2-crop-u3662_2x7.jpg?crc=3810929415" alt="" data-image-width="155" data-image-height="137" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
     </div>
     <span class="nonblock nontext rgba-background transition clip_frame clearfix grpelem placeholder" data-placeholder-for="u3673_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3678"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3678_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3654_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu3678_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3680"><!-- group -->
+     <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u3680_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u3665-4_content"><!-- placeholder node --></span>
     </div>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3680_content"><!-- placeholder node --></span>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u10589_content"><!-- placeholder node --></span>
-    <span class="verticalspacer placeholder" data-placeholder-for="page_8_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="783" data-content-above-spacer="783" data-content-below-spacer="61"></div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr2.png?crc=53279573" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr_2x2.png?crc=4212124870" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr2.jpg?crc=378619007" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr_2x2.jpg?crc=3973743766" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_837" data-max-width="837"><!-- responsive breakpoint node -->
@@ -1428,13 +1456,13 @@ display: none;
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u3670-4_content"><!-- placeholder node --></span>
      </div>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3678"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3678_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu3654_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu3678_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3680"><!-- group -->
+     <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u3680_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext transition clearfix grpelem placeholder" data-placeholder-for="u3665-4_content"><!-- placeholder node --></span>
     </div>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu3680_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3659"><!-- column -->
-     <span class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u3659_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu3659"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu3659_content"><!-- placeholder node --></span>
      <a class="nonblock nontext rgba-background transition clip_frame colelem temp_no_id" href="design.html" data-orig-id="u3662"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/phone2-crop-u36628.jpg?crc=4121575903" data-hidpi-src="images/phone2-crop-u3662_2x8.jpg?crc=358182524" alt="" data-image-width="146" data-image-height="129" data-orig-id="u3662_img" src="images/blank.gif?crc=4208392903"/></a>
     </div>
     <div class="clearfix grpelem" id="pu10589"><!-- column -->
@@ -1444,8 +1472,8 @@ display: none;
     <span class="verticalspacer placeholder" data-placeholder-for="page_7_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr3.png?crc=484813768" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr_2x3.png?crc=3990536725" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr3.jpg?crc=4267694894" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/fts2-u3666-r-fr_2x3.jpg?crc=4186034631" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <!-- JS includes -->
