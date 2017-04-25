@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1492786791970">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1493163246689">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -25,8 +25,8 @@
     <file name="index.css" crc="3964737638" ref="index"/>
     <file name="design.css" crc="34938334" ref="design"/>
     <file name="work.css" crc="3848757083" ref="work"/>
-    <file name="photography.css" crc="4124197958" ref="photography"/>
-    <file name="videos.css" crc="264639043" ref="videos"/>
+    <file name="photography.css" crc="4182590151" ref="photography"/>
+    <file name="videos.css" crc="130427610" ref="videos"/>
     <file name="aboutindex-copy.css" crc="3970660849" ref="aboutindex-copy"/>
     <file name="nomq_aboutindex-copy.css" crc="4138012499" ref="aboutindex-copy"/>
   </folder>
@@ -57,73 +57,73 @@
     <file name="blank.gif" crc="4208392903" ref="index:videos:work:photography:design:music:cv:phone>index:aboutindex-copy"/>
     <file name="jvig2.png" crc="3997573773" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jvig2_2x.png" crc="3967243255" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_tw.png" crc="494341086" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_tw_2x.png" crc="4039658436" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_fb.png" crc="23203033" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_fb_2x.png" crc="4279808868" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_in.png" crc="89207225" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_in_2x.png" crc="4280289030" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_em.png" crc="3792587619" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="jv_em_2x.png" crc="3996379706" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="music" alt=""/>
+      <caption webpage="work" alt=""/>
       <caption webpage="videos" alt=""/>
       <caption webpage="photography" alt=""/>
-      <caption webpage="work" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="videos-favicon.ico" crc="18852184" ref="phone>videos:videos"/>
     <file name="vid.png" crc="369463439" ref="videos">
@@ -395,11 +395,17 @@
     <file name="londonthing60x40_2x.jpg" crc="269222809" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
+    <file name="hglt.png" crc="3931683865" ref="videos">
+      <caption webpage="videos" alt=""/>
+    </file>
+    <file name="hglt_2x.png" crc="3801999116" ref="videos">
+      <caption webpage="videos" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="3930980879" seo="true" mt="1491457633621" redirect="true"/>
-  <file name="videos.html" crc="3943540833" seo="true" mt="1491450871967" redirect="true"/>
+  <file name="videos.html" crc="380158490" seo="true" mt="1493163223366" redirect="true"/>
   <file name="work.html" crc="250200434" seo="true" mt="1492786761109" redirect="true"/>
-  <file name="photography.html" crc="198788035" seo="true" mt="1491451586861" redirect="true"/>
+  <file name="photography.html" crc="524172035" seo="true" mt="1493161699614" redirect="true"/>
   <file name="design.html" crc="22028180" seo="true" mt="1491450962560" redirect="true"/>
   <file name="music.html" crc="116095162" seo="true" mt="1491452009233" redirect="true"/>
   <file name="cv.html" crc="4110332325" seo="true" mt="1491457660834" redirect="true"/>
