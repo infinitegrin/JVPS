@@ -2,53 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://johnnyvilla.com/index.html</loc>
-    <lastmod>2017-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/index.html"/>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/videos.html</loc>
     <lastmod>2017-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/work.html</loc>
-    <lastmod>2017-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/work.html"/>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521_2x.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/cv.html</loc>
-    <lastmod>2017-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/music.html</loc>
-    <lastmod>2017-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/aboutindex-copy.html</loc>
-    <lastmod>2017-04-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/index.html"/>
   </url>
   <url>
     <loc>http://johnnyvilla.com/photography.html</loc>
@@ -267,38 +224,57 @@
     </image:image>
   </url>
   <url>
+    <loc>http://johnnyvilla.com/videos.html</loc>
+    <lastmod>2017-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://johnnyvilla.com/work.html</loc>
+    <lastmod>2017-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/work.html"/>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521_2x.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://johnnyvilla.com/music.html</loc>
+    <lastmod>2017-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://johnnyvilla.com/cv.html</loc>
+    <lastmod>2017-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://johnnyvilla.com/aboutindex-copy.html</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://johnnyvilla.com/assets/njfuture_app.pdf</loc>
     <lastmod>2016-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://johnnyvilla.com/assets/countdown-widget.mulib</loc>
-    <lastmod>2015-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/assets/jv_resume_headgum.pdf</loc>
-    <lastmod>2017-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/assets/animation-effects.mulib</loc>
-    <lastmod>2015-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/assets/jonathanvilla_resumefinal_iti.pdf</loc>
-    <lastmod>2017-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/assets/in-out_qooqee_widgets.mulib</loc>
-    <lastmod>2014-09-20</lastmod>
+    <loc>http://johnnyvilla.com/assets/jv_resume_hg.pdf</loc>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
