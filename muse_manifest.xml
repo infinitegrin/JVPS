@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1493263883857">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1501262885216">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -23,9 +23,9 @@
     <file name="cv.css" crc="4212456271" ref="cv"/>
     <file name="music.css" crc="4206279454" ref="music"/>
     <file name="index.css" crc="3964737638" ref="index"/>
-    <file name="design.css" crc="34938334" ref="design"/>
+    <file name="design.css" crc="4253215627" ref="design"/>
     <file name="work.css" crc="3848757083" ref="work"/>
-    <file name="photography.css" crc="4182590151" ref="photography"/>
+    <file name="photography.css" crc="222498322" ref="photography"/>
     <file name="videos.css" crc="130427610" ref="videos"/>
     <file name="aboutindex-copy.css" crc="3970660849" ref="aboutindex-copy"/>
     <file name="nomq_aboutindex-copy.css" crc="4138012499" ref="aboutindex-copy"/>
@@ -33,6 +33,7 @@
   <folder name="assets">
     <file name="njfuture_app.pdf" crc="186479303" seo="true" mt="1481258950000"/>
     <file name="jv_resume_hg.pdf" crc="4058293862" seo="true" mt="1493263749000"/>
+    <file name="vaccination_finaldraft.pdf" crc="4188101167" seo="true" mt="1500990787000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:videos:work:photography:design:music:cv:phone>index:phone>work:phone>videos:phone>photography:phone>design:phone>music:phone>cv:aboutindex-copy"/>
@@ -243,11 +244,11 @@
     <file name="guitar_2x.jpg" crc="42024472" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="fts2.jpg" crc="3872885303" ref="work:design">
+    <file name="fts2.jpg" crc="44152170" ref="work:design" seo="true">
       <caption webpage="work" alt=""/>
       <caption webpage="design" alt=""/>
     </file>
-    <file name="fts2_2x.jpg" crc="18482726" ref="work:design">
+    <file name="fts2_2x.jpg" crc="3837112011" ref="work:design" seo="true">
       <caption webpage="work" alt=""/>
       <caption webpage="design" alt=""/>
     </file>
@@ -305,11 +306,9 @@
     <file name="phone2_blk-crop-u16521_2x.jpg" crc="209093346" seo="true" ref="work">
       <caption webpage="work" alt=""/>
     </file>
-    <file name="u13699-4.png" crc="329945619" ref="photography"/>
-    <file name="u13699-4_2x.png" crc="4291646329" ref="photography"/>
-    <file name="u15637-4.png" crc="3870167992" ref="design"/>
-    <file name="u15637-4_2x.png" crc="95494394" ref="design"/>
-    <file name="albumart-crop-u15612.jpg" crc="226126547" seo="true" ref="design">
+    <file name="u15637-4.png" crc="4250492429" ref="design"/>
+    <file name="u15637-4_2x.png" crc="4008508884" ref="design"/>
+    <file name="albumart-crop-u15612.jpg" crc="363949355" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="albumart-crop-u15612_2x.jpg" crc="4251094824" seo="true" ref="design">
@@ -345,13 +344,13 @@
     <file name="guitar-crop-u15600_2x.jpg" crc="4194945673" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="fts2-crop-u15598.jpg" crc="425866640" seo="true" ref="design">
+    <file name="fts2-crop-u15598.jpg" crc="4290289096" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="fts2-crop-u15598_2x.jpg" crc="4034757262" seo="true" ref="design">
+    <file name="fts2-crop-u15598_2x.jpg" crc="4196215826" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="ruinvited90s-crop-u15616.jpg" crc="4226731265" seo="true" ref="design">
+    <file name="ruinvited90s-crop-u15616.jpg" crc="272626146" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="ruinvited90s-crop-u15616_2x.jpg" crc="4253281317" seo="true" ref="design">
@@ -363,14 +362,14 @@
     <file name="jv3abcd-crop-u15606_2x.png" crc="4224245226" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="phone2-crop-u15604.jpg" crc="115563078" seo="true" ref="design">
+    <file name="phone2-crop-u15604.jpg" crc="3943435902" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="phone2-crop-u15604_2x.jpg" crc="384129469" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u15638-4.png" crc="3984147074" ref="design"/>
-    <file name="u15638-4_2x.png" crc="89128424" ref="design"/>
+    <file name="u15638-4.png" crc="3904036440" ref="design"/>
+    <file name="u15638-4_2x.png" crc="4192630506" ref="design"/>
     <file name="aboutindex-copy-favicon.ico" crc="18852184" ref="aboutindex-copy"/>
     <file name="fts2-u16525-fr.png" crc="4140830176" ref="work"/>
     <file name="fts2-u16525-fr_2x.png" crc="212806814" ref="work"/>
@@ -397,12 +396,142 @@
     <file name="hglt_2x.png" crc="3801999116" ref="videos">
       <caption webpage="videos" alt=""/>
     </file>
+    <file name="u13699-6.png" crc="4130369740" ref="photography"/>
+    <file name="u13699-6_2x.png" crc="3912197114" ref="photography"/>
+    <file name="dsc5907a-11.jpg" crc="281430680" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-12.jpg" crc="125103822" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-6.jpg" crc="293004675" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-5.jpg" crc="3845026459" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-9.jpg" crc="4093140430" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-19.jpg" crc="6023561" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-21.jpg" crc="447376868" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-22.jpg" crc="308660911" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-36.jpg" crc="4162621788" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a.jpg" crc="142478589" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-11-crop-u18085.jpg" crc="3967354634" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-11-crop-u18085_2x.jpg" crc="106015942" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-12-crop-u18117.jpg" crc="3924678686" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-12-crop-u18117_2x.jpg" crc="57538564" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-668x45.jpg" crc="4129773301" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-668x45_2x.jpg" crc="4184811454" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-568x45.jpg" crc="362762860" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-568x45_2x.jpg" crc="4147692855" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-968x45.jpg" crc="4152689733" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-968x45_2x.jpg" crc="178920223" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-1960x53.jpg" crc="4279348772" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-1960x53_2x.jpg" crc="425483701" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-2168x45.jpg" crc="4007955355" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-2168x45_2x.jpg" crc="3778132751" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-2268x45.jpg" crc="411124232" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-2268x45_2x.jpg" crc="3817298353" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-3668x45.jpg" crc="482905445" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-3668x45_2x.jpg" crc="3991262402" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a68x45.jpg" crc="207439880" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a68x45_2x.jpg" crc="4262307978" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="needle_ppt_text_white601x94.png" crc="67782051" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="needle_ppt_text_white601x94_2x.png" crc="462357233" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="ssw_logo.jpg" crc="359072628" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="ssw_logo_2x.jpg" crc="444739851" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="snappy ppt.jpg" crc="303284371" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="snappy ppt_2x.jpg" crc="43317216" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="needle_ppt_text_white-crop-u18453.png" crc="4253716500" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="needle_ppt_text_white-crop-u18453_2x.png" crc="59757900" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="ssw_logo-crop-u18487.jpg" crc="3975325997" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="ssw_logo-crop-u18487_2x.jpg" crc="535105552" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="snappy ppt253x168.jpg" crc="47996365" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="snappy ppt253x168_2x.jpg" crc="477885987" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="u18647-4.png" crc="145653969" ref="design"/>
+    <file name="u18647-4_2x.png" crc="225317071" ref="design"/>
   </folder>
   <file name="index.html" crc="349058014" seo="true" mt="1493176015120" redirect="true"/>
   <file name="videos.html" crc="380158490" seo="true" mt="1493163223366" redirect="true"/>
   <file name="work.html" crc="250200434" seo="true" mt="1492786761109" redirect="true"/>
-  <file name="photography.html" crc="524172035" seo="true" mt="1493161699614" redirect="true"/>
-  <file name="design.html" crc="22028180" seo="true" mt="1491450962560" redirect="true"/>
+  <file name="photography.html" crc="263258134" seo="true" mt="1501262760283" redirect="true"/>
+  <file name="design.html" crc="242083246" seo="true" mt="1501262687395" redirect="true"/>
   <file name="music.html" crc="116095162" seo="true" mt="1491452009233" redirect="true"/>
   <file name="cv.html" crc="3772734534" seo="true" mt="1493263826230" redirect="true"/>
   <file name="aboutindex-copy.html" crc="3909708807" seo="true" mt="1491448730089" redirect="true"/>

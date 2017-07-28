@@ -8,8 +8,33 @@
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/index.html"/>
   </url>
   <url>
+    <loc>http://johnnyvilla.com/work.html</loc>
+    <lastmod>2017-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/work.html"/>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/fts2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/fts2_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521_2x.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>http://johnnyvilla.com/photography.html</loc>
-    <lastmod>2017-04-25</lastmod>
+    <lastmod>2017-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -66,10 +91,100 @@
     <image:image>
       <image:loc>http://johnnyvilla.com/images/londonthing60x40_2x.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-11.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-12.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-19.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-21.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-22.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-36.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-11-crop-u18085.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-11-crop-u18085_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-12-crop-u18117.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-12-crop-u18117_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-668x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-668x45_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-568x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-568x45_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-968x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-968x45_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-1960x53.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-1960x53_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-2168x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-2168x45_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-2268x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-2268x45_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-3668x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-3668x45_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a68x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a68x45_2x.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://johnnyvilla.com/design.html</loc>
-    <lastmod>2017-04-05</lastmod>
+    <lastmod>2017-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -119,6 +234,12 @@
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/guitar_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/fts2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/fts2_2x.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://johnnyvilla.com/images/ruinvited90s.jpg</image:loc>
@@ -222,31 +343,48 @@
     <image:image>
       <image:loc>http://johnnyvilla.com/images/phone2-crop-u15604_2x.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/needle_ppt_text_white601x94.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/needle_ppt_text_white601x94_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/ssw_logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/ssw_logo_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/snappy%20ppt.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/snappy%20ppt_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/needle_ppt_text_white-crop-u18453.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/needle_ppt_text_white-crop-u18453_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/ssw_logo-crop-u18487.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/ssw_logo-crop-u18487_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/snappy%20ppt253x168.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/snappy%20ppt253x168_2x.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://johnnyvilla.com/videos.html</loc>
     <lastmod>2017-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://johnnyvilla.com/work.html</loc>
-    <lastmod>2017-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://johnnyvilla.com/phone/work.html"/>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/pasted%20image%201251x635_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://johnnyvilla.com/images/phone2_blk-crop-u16521_2x.jpg</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>http://johnnyvilla.com/music.html</loc>
@@ -267,14 +405,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://johnnyvilla.com/assets/njfuture_app.pdf</loc>
-    <lastmod>2016-12-08</lastmod>
+    <loc>http://johnnyvilla.com/assets/jv_resume_hg.pdf</loc>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://johnnyvilla.com/assets/jv_resume_hg.pdf</loc>
-    <lastmod>2017-04-26</lastmod>
+    <loc>http://johnnyvilla.com/assets/vaccination_finaldraft.pdf</loc>
+    <lastmod>2017-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://johnnyvilla.com/assets/njfuture_app.pdf</loc>
+    <lastmod>2016-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
