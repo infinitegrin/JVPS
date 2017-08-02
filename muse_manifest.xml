@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1501690634832">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1501693820059">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -25,7 +25,7 @@
     <file name="index.css" crc="3964737638" ref="index"/>
     <file name="design.css" crc="9324680" ref="design"/>
     <file name="work.css" crc="3848757083" ref="work"/>
-    <file name="photography.css" crc="298474116" ref="photography"/>
+    <file name="photography.css" crc="479316091" ref="photography"/>
     <file name="videos.css" crc="130427610" ref="videos"/>
     <file name="aboutindex-copy.css" crc="3970660849" ref="aboutindex-copy"/>
     <file name="nomq_aboutindex-copy.css" crc="4138012499" ref="aboutindex-copy"/>
@@ -54,73 +54,73 @@
     <file name="blank.gif" crc="4208392903" ref="index:videos:work:photography:design:music:cv:phone>index:aboutindex-copy"/>
     <file name="jvig2.png" crc="3997573773" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jvig2_2x.png" crc="3967243255" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_tw.png" crc="494341086" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_tw_2x.png" crc="4039658436" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_fb.png" crc="23203033" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_fb_2x.png" crc="4279808868" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_in.png" crc="89207225" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_in_2x.png" crc="4280289030" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_em.png" crc="3792587619" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="jv_em_2x.png" crc="3996379706" ref="index:videos:work:photography:design:music:cv:aboutindex-copy">
       <caption webpage="index" alt=""/>
-      <caption webpage="photography" alt=""/>
       <caption webpage="work" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="videos" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="photography" alt=""/>
     </file>
     <file name="videos-favicon.ico" crc="18852184" ref="phone>videos:videos"/>
     <file name="vid.png" crc="369463439" ref="videos">
@@ -535,13 +535,13 @@
     <file name="dsc5907a-19-crop-u18793.jpg" crc="481611140" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="dsc5907a-19-crop-u18793_2x.jpg" crc="232739955" seo="true" ref="photography">
+    <file name="dsc5907a-19-crop-u18793_2x.jpg" crc="4132970054" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="dsc5907a-20-crop-u18813.jpg" crc="4195951309" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
-    <file name="dsc5907a-20-crop-u18813_2x.jpg" crc="276510732" seo="true" ref="photography">
+    <file name="dsc5907a-20-crop-u18813_2x.jpg" crc="386857416" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
     <file name="dsc5907a-23-crop-u18833.jpg" crc="3955881018" seo="true" ref="photography">
@@ -550,11 +550,65 @@
     <file name="dsc5907a-23-crop-u18833_2x.jpg" crc="3862706114" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
+    <file name="dsc5907a-2.jpg" crc="252245446" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-3.jpg" crc="4101926067" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-4.jpg" crc="495726030" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-52.jpg" crc="411454103" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-62.jpg" crc="464582687" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a2.jpg" crc="119191433" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-2-crop-u18925.jpg" crc="3886596585" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-2-crop-u18925_2x.jpg" crc="141056525" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-368x45.jpg" crc="4143820019" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-368x45_2x.jpg" crc="3774148756" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-468x45.jpg" crc="4097393018" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-468x45_2x.jpg" crc="501894548" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-5-crop-u18985.jpg" crc="188042125" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-5-crop-u18985_2x.jpg" crc="461982889" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-6-crop-u19005.jpg" crc="3833906962" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a-6-crop-u19005_2x.jpg" crc="3884670658" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a68x452.jpg" crc="308440950" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc5907a68x45_2x2.jpg" crc="4066971613" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="349058014" seo="true" mt="1493176015120" redirect="true"/>
   <file name="videos.html" crc="380158490" seo="true" mt="1493163223366" redirect="true"/>
   <file name="work.html" crc="250200434" seo="true" mt="1492786761109" redirect="true"/>
-  <file name="photography.html" crc="4016352835" seo="true" mt="1501690570471" redirect="true"/>
+  <file name="photography.html" crc="98995648" seo="true" mt="1501693768193" redirect="true"/>
   <file name="design.html" crc="162120072" seo="true" mt="1501690532782" redirect="true"/>
   <file name="music.html" crc="116095162" seo="true" mt="1491452009233" redirect="true"/>
   <file name="cv.html" crc="3772734534" seo="true" mt="1493263826230" redirect="true"/>
