@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>http://johnnyvilla.com/photography.html</loc>
-    <lastmod>2017-08-02</lastmod>
+    <lastmod>2017-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -262,6 +262,42 @@
     <image:image>
       <image:loc>http://johnnyvilla.com/images/dsc5907a68x45_2x2.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/img_5831.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-53.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/finesse.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dinerbg2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/img_5831-crop-u19070.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/img_5831-crop-u19070_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-5-crop-u19098.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dsc5907a-5-crop-u19098_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/finesse-crop-u19126.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/finesse-crop-u19126_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dinerbg272x45.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://johnnyvilla.com/images/dinerbg272x45_2x.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://johnnyvilla.com/design.html</loc>
@@ -472,7 +508,7 @@
   </url>
   <url>
     <loc>http://johnnyvilla.com/cv.html</loc>
-    <lastmod>2017-04-26</lastmod>
+    <lastmod>2017-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -483,14 +519,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://johnnyvilla.com/assets/jv_resume_hg.pdf</loc>
-    <lastmod>2017-04-26</lastmod>
+    <loc>http://johnnyvilla.com/assets/vaccination_finaldraft.pdf</loc>
+    <lastmod>2017-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://johnnyvilla.com/assets/vaccination_finaldraft.pdf</loc>
-    <lastmod>2017-07-31</lastmod>
+    <loc>http://johnnyvilla.com/assets/jonathanvilla_resumefinal_iti.pdf</loc>
+    <lastmod>2017-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
