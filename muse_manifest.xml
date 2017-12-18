@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1513545827332">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="johnnyvilla.com" resolutions="1x,2x" timestamp="1513580517121">
   <folder name="phone">
     <folder name="css">
       <file name="photography.css" crc="3940831363" ref="phone>photography"/>
@@ -26,7 +26,7 @@
     <file name="design.css" crc="9324680" ref="design"/>
     <file name="work.css" crc="3848757083" ref="work"/>
     <file name="photography.css" crc="33806826" ref="photography"/>
-    <file name="videos.css" crc="106646594" ref="videos"/>
+    <file name="videos.css" crc="401846949" ref="videos"/>
     <file name="aboutindex-copy.css" crc="3970660849" ref="aboutindex-copy"/>
     <file name="nomq_aboutindex-copy.css" crc="4138012499" ref="aboutindex-copy"/>
   </folder>
@@ -680,9 +680,15 @@
     <file name="timber_2x.jpg" crc="4061782520" seo="true" ref="photography">
       <caption webpage="photography" alt=""/>
     </file>
+    <file name="dreamjob.jpg" crc="142231105" ref="videos">
+      <caption webpage="videos" alt=""/>
+    </file>
+    <file name="dreamjob_2x.jpg" crc="3998006101" ref="videos">
+      <caption webpage="videos" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="4021928428" seo="true" mt="1508361601672" redirect="true"/>
-  <file name="videos.html" crc="4249941487" seo="true" mt="1513545826472" redirect="true"/>
+  <file name="videos.html" crc="4040496955" seo="true" mt="1513580507646" redirect="true"/>
   <file name="work.html" crc="250200434" seo="true" mt="1492786761109" redirect="true"/>
   <file name="photography.html" crc="86928185" seo="true" mt="1513130054137" redirect="true"/>
   <file name="design.html" crc="162120072" seo="true" mt="1501690532782" redirect="true"/>
